@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Llegada a Hamburgo",
+        "date": "01/03/2026",
+        "city": "Hamburg",
+        "emoji": "⚓",
+        "excerpt": "Llegué de noche y tomé un taxi al apartamento. El lugar estaba sucio pero acogedor.",
+        "content": "Llegue a Hamburg de noche alrededor de las 11pm en horario de Hamburg, intente usar los metros cercanos al aeropuerto, pero era mucho trabajo el entenderlo y esperar por el metro, asi que decidí directamente pedir un taxi que me trajera a mi apartamento.\n\nEsta algo bastante sucio por la cantidad de personas que viven aqui, pero es lo suficientemente acojedor para que no me importe.",
+        "image": "/images/hamburg-arrival.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Primera reunión de trabajo",
+        "date": "02/03/2026",
+        "city": "Hamburg",
+        "emoji": "💼",
+        "excerpt": "Reunión con los superiores del proyecto Tanz der Kulturen.",
+        "content": "Hoy tuve una reunion con mis superiores del trabajo de Tanz der Kulturen para que me asignaran algun tipo de tarea, al parecer van a hacer un tipo de fusion con otra pagina web, asi que tengo que replicar la pagina principal usando el framework de “Wordpress” y otras cosas, esto y el projecto final de DAW va a hacer que se me rompa la espalda.",
+        "image": "/images/hamburg-meeting.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Turismo y compras",
+        "date": "03/03/2026",
+        "city": "Hamburg",
+        "emoji": "🛍️",
+        "excerpt": "Turismo, fotos y búsqueda de un mouse nuevo.",
+        "content": "Hoy estuve haciendo cosas del trabajo final de ASIR, pero ya me tiene harto el que mi mouse este tan roto y que tenga que usar el boton secundario como principal, asi que he decidido salir a hacer turismo y encontrar un mouse nuevo, he tomado muchas fotos en mi sesion de turismo, hasta vi una revuelta, no se porque era en primer lugar pero se me hizo chistoso, igualmente encontre un mediamark gigantesco y me quede a ver por dentro, ahi encontre un mouse decenete a 15 euros.\n\nTambien de paso encontre que en el piso de arriba del todo estaba lleno de cosas de videojuegos y anime, asi que al final tuve que hechar un vistazo, y tambien compre una cosa para un compañero de clase, que ahora me debe unos 30 euritos cuando vuelva…",
+        "image": "/images/hamburg-shopping.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Configurando Wordpress",
+        "date": "04/03/2026",
+        "city": "Hamburg",
+        "emoji": "🖥️",
+        "excerpt": "Preparando Wordpress local para el proyecto.",
+        "content": "Hoy tuve otra reunion con mi jefa, esta vez para aclarar cosas del trabajo, ya que el wordpress lo tengo que hacer local, no se que tan bien ira mi wordpress con este xampp que anda dando errores todo el rato que puede, ni reinstalarlo sirve, pero bueno, por ahora he podido hacer que el wordpress funcione de manera local, ahora debo hacer que luzca exactamente igual a la pagina de tanz der kulturen.",
+        "image": "/images/hamburg-wordpress.jpg"
+    }
+]
