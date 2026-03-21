@@ -1,2 +1,39 @@
 /* index.css */
 @import "tailwindcss";
+
+/* Contenedor del scroll (la pista) */
+::-webkit-scrollbar {
+  width: 12px;               /* Ancho del scroll vertical */
+  height: 12px;              /* Alto del scroll horizontal */
+}
+
+/* La "pista" o fondo por donde se mueve el scroll */
+::-webkit-scrollbar-track {
+  background: #112240;       /* Azul muy oscuro (el del header) */
+  border-left: 2px solid #4a2e1b; /* Borde de "madera" para separar del contenido */
+}
+
+/* El "tirador" o barrita que arrastras */
+::-webkit-scrollbar-thumb {
+  background: #f6c253;       /* Dorado PMD */
+  border: 2px solid #4a2e1b;  /* Borde oscuro para que resalte */
+  border-radius: 4px;        /* Un poco redondeado, pero no circular */
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.5); /* Sombra interna para dar relieve */
+}
+
+/* Cuando pasas el ratón por encima del tirador */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffbd2e;       /* Un dorado más brillante al hacer hover */
+  cursor: pointer;
+}
+
+/* Esquina donde se juntan el scroll horizontal y vertical */
+::-webkit-scrollbar-corner {
+  background: #112240;
+}
+
+/* Soporte para Firefox (más limitado, pero funcional) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #f6c253 #112240;
+}

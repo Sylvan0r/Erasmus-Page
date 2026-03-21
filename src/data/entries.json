@@ -27,7 +27,7 @@
         "emoji": "🛍️",
         "excerpt": "Turismo, fotos y búsqueda de un mouse.",
         "content": "Hoy estuve haciendo cosas del trabajo final de ASIR, pero ya me tiene harto el que mi mouse este tan roto y que tenga que usar el botón secundario como principal, así que he decidido salir a hacer turismo y encontrar un mouse nuevo, he tomado muchas fotos en mi sesion de turismo, hasta vi una revuelta, no se porque era en primer lugar pero se me hizo chistoso, igualmente encontre un mediamarkt gigantesco y me quede a ver por dentro, ahi encontre un mouse decente a 15 euros.\n\nTambién de paso encontré que en el piso de arriba del todo estaba lleno de cosas de videojuegos y anime, así que al final tuve que echar un vistazo, y también compre una cosa para un compañero de clase, que ahora me debe unos 30 euros cuando vuelva…",
-        "image": "/images/hamburg-shopping.jpg"
+        "image": ["/img/fat_pikachu_&_eevee.jpg", "/img/sonic_x.jpg", "/img/one_piece_card.jpeg", "/img/detective_connan.jpg", "/img/girls_und_panzer.jpg"]
     },
     {
         "id": 4,
@@ -147,6 +147,6 @@
         "emoji": "🗑️",
         "excerpt": "Necesito una papelera.",
         "content": "Al final me he dado cuenta de una cosa de mi habitación siendo que, no tengo una basura en sí, en plan, no me hace mucha falta porque uso una de mis estrategias de supervivencia 101, siendo la de usar todo lo que no has tirado para utilizarlo, usando siempre mis bolsas de papas como basura, pero creo que tener una cubo de basura de verdad vendría bastante bien también.\n\nOtra cosa también es que ha aparecido una tía que dice que se quedará hasta el domingo, no se si es por la mañana cuando se va o por la noche, pero bueno, mientras no toque mi nevera personal u otra cosas no me importa.",
-        "image": "/images/default.jpg"
+        "image": "/img/trashcan.jpeg"
     }
 ]
