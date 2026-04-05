@@ -13,15 +13,15 @@ function MainPage() {
   const [volume, setVolume] = useState(6);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
-  const clickSound = new Howl({ src: ['/sounds/click.mp3'], volume: 0.06 });
-  const openSound = new Howl({ src: ['/sounds/open.mp3'], volume: 0.06 });
-  const closeSound = new Howl({ src: ['/sounds/close.mp3'], volume: 0.06 });
+  const clickSound = new Howl({ src: ['./sounds/click.mp3'], volume: 0.06 });
+  const openSound = new Howl({ src: ['./sounds/open.mp3'], volume: 0.06 });
+  const closeSound = new Howl({ src: ['./sounds/close.mp3'], volume: 0.06 });
 
   const musicRef = useRef(null);
 
   useEffect(() => {
     musicRef.current = new Howl({
-      src: ['/sounds/boba date.mp3'],
+      src: ['./sounds/boba date.mp3'],
       loop: true,
       volume: volume / 100,
     });

@@ -7,7 +7,7 @@
         "emoji": "⚓",
         "excerpt": "Llegué de noche y tomé un taxi al apartamento.",
         "content": "Llegué a Hamburgo de noche alrededor de las 11pm en horario de Hamburgo, intente usar los metros cercanos al aeropuerto, pero era mucho trabajo el entenderlo y esperar por el metro, así que decidí directamente pedir un taxi que me trajera a mi apartamento.\n\nEstá algo bastante sucio por la cantidad de personas que viven aquí, pero es lo suficientemente acogedor para que no me importe.",
-        "image": ["/img/01_03_2026/20260303_163759.jpg", "/img/01_03_2026/20260303_163405.jpg"]
+        "image": ["./img/01_03_2026/20260303_163759.jpg", "./img/01_03_2026/20260303_163405.jpg"]
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@
         "emoji": "🛍️",
         "excerpt": "Turismo, fotos y búsqueda de un mouse.",
         "content": "Hoy estuve haciendo cosas del trabajo final de ASIR, pero ya me tiene harto el que mi mouse este tan roto y que tenga que usar el botón secundario como principal, así que he decidido salir a hacer turismo y encontrar un mouse nuevo, he tomado muchas fotos en mi sesion de turismo, hasta vi una revuelta, no se porque era en primer lugar pero se me hizo chistoso, igualmente encontre un mediamarkt gigantesco y me quede a ver por dentro, ahi encontre un mouse decente a 15 euros.\n\nTambién de paso encontré que en el piso de arriba del todo estaba lleno de cosas de videojuegos y anime, así que al final tuve que echar un vistazo, y también compre una cosa para un compañero de clase, que ahora me debe unos 30 euros cuando vuelva…",
-        "image": ["/img/03_03_2026/fat_pikachu_&_eevee.jpg", "/img/03_03_2026/sonic_x.jpg", "/img/03_03_2026/one_piece_card.jpeg", "/img/03_03_2026/detective_connan.jpg", "/img/03_03_2026/girls_und_panzer.jpg"]
+        "image": ["./img/03_03_2026/fat_pikachu_&_eevee.jpg", "./img/03_03_2026/sonic_x.jpg", "./img/03_03_2026/one_piece_card.jpeg", "./img/03_03_2026/detective_connan.jpg", "./img/03_03_2026/girls_und_panzer.jpg"]
     },
     {
         "id": 4,
@@ -107,7 +107,7 @@
         "emoji": "🏠",
         "excerpt": "Cambio a un espacio mejor.",
         "content": "Finalmente han arreglado la habitación de abajo y me han dicho que ya me puedo cambiar, ¡y era justo como lo que esperaba!\n\nNo tengo a nadie, me puedo despertar a las 8AM y ponerme a trabajar sin molestar a nadie por esas horas sin tener que morirme de frío y ¡tengo una nevera! Eso sí, parece que el internet es mucho peor aquí abajo que arriba, pero bueno, yo diría que es un intercambio equivalente, y yo la verdad estoy completamente dispuesto a pagar el precio.",
-        "image": "/img/16_03_2026/20260405_125523.jpg"
+        "image": "./img/16_03_2026/20260405_125523.jpg"
     },
     {
         "id": 12,
@@ -127,7 +127,7 @@
         "emoji": "🪑",
         "excerpt": "Por fin tengo silla.",
         "content": "Queréis que os cuente un DATO CURIOSO que debería haber comentado desde hace mucho tiempo?\n\nBien, pues llevo todo este tiempo trabajando en el suelo, si, asi como lo oyes, teniendo una mesita que me lleva hasta las rodillas para poder apoyar mi laptop y poder trabajar, y claro, como es de imaginar, podéis imaginar como esta mi espalda ya…\n\nAsí que he decidido hablar con el anfitrión y me ha dejado una silla aquí para poder trabajar de manera eficaz sin poder romperme la espalda, asi que adios mesita pequeña que me ayudaba tanto! No te extrañaré mucho pero agradezco tu existencia, si no fuera por ti tendría que haber estado trabajando acostado en el suelo!\n\n(Tampoco me preguntéis porque no hice esto antes, estoy igual que vosotros)",
-        "image": "/img/18_03_2026/20260405_125634.jpg"
+        "image": "./img/18_03_2026/20260405_125634.jpg"
     },
     {
         "id": 14,
@@ -147,7 +147,7 @@
         "emoji": "🗑️",
         "excerpt": "Necesito una papelera.",
         "content": "Al final me he dado cuenta de una cosa de mi habitación siendo que, no tengo una basura en sí, en plan, no me hace mucha falta porque uso una de mis estrategias de supervivencia 101, siendo la de usar todo lo que no has tirado para utilizarlo, usando siempre mis bolsas de papas como basura, pero creo que tener una cubo de basura de verdad vendría bastante bien también.\n\nOtra cosa también es que ha aparecido una tía que dice que se quedará hasta el domingo, no se si es por la mañana cuando se va o por la noche, pero bueno, mientras no toque mi nevera personal u otra cosas no me importa.",
-        "image": "/img/20_03_2026/trashcan.jpeg"
+        "image": "./img/20_03_2026/trashcan.jpeg"
     },
     {
         "id": 16,
@@ -207,7 +207,7 @@
         "emoji": "📸",
         "excerpt": "Reunión y fotos por la ciudad.",
         "content": "Por problemas de horarios tuvimos que rehacer la reunión, pero eso tuvo algo positivo.\n\nPude hacerla de forma presencial con mi supervisora Stephanie, lo cual me permitió también explorar la zona cerca de su casa y hacer algunas fotos bastante interesantes.",
-        "image": ["/img/31_03_2026/20260331_134644.jpg", "/img/31_03_2026/20260331_134440.jpg", "/img/31_03_2026/20260331_134400.jpg", "/img/31_03_2026/20260302_130251.jpg"]
+        "image": ["./img/31_03_2026/20260331_134644.jpg", "./img/31_03_2026/20260331_134440.jpg", "./img/31_03_2026/20260331_134400.jpg", "./img/31_03_2026/20260302_130251.jpg"]
     },
     {
         "id": 22,
