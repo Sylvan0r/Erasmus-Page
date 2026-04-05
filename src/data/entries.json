@@ -7,7 +7,7 @@
         "emoji": "⚓",
         "excerpt": "Llegué de noche y tomé un taxi al apartamento.",
         "content": "Llegué a Hamburgo de noche alrededor de las 11pm en horario de Hamburgo, intente usar los metros cercanos al aeropuerto, pero era mucho trabajo el entenderlo y esperar por el metro, así que decidí directamente pedir un taxi que me trajera a mi apartamento.\n\nEstá algo bastante sucio por la cantidad de personas que viven aquí, pero es lo suficientemente acogedor para que no me importe.",
-        "image": "/images/hamburg-arrival.jpg"
+        "image": ["/img/01_03_2026/20260303_163759.jpg", "/img/01_03_2026/20260303_163405.jpg"]
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "emoji": "💼",
         "excerpt": "Reunión con los superiores del proyecto.",
         "content": "Hoy tuve una reunión con mis superiores del trabajo de Tanz der Kulturen para que me asignan algún tipo de tarea, al parecer van a hacer un tipo de fusión con otra página web, así que tengo que replicar la página principal usando el framework de \"Wordpress\" y otras cosas, esto y el proyecto final de DAW va a hacer que se me rompa la espalda.",
-        "image": "/images/hamburg-meeting.jpg"
+        "image": ""
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "emoji": "🛍️",
         "excerpt": "Turismo, fotos y búsqueda de un mouse.",
         "content": "Hoy estuve haciendo cosas del trabajo final de ASIR, pero ya me tiene harto el que mi mouse este tan roto y que tenga que usar el botón secundario como principal, así que he decidido salir a hacer turismo y encontrar un mouse nuevo, he tomado muchas fotos en mi sesion de turismo, hasta vi una revuelta, no se porque era en primer lugar pero se me hizo chistoso, igualmente encontre un mediamarkt gigantesco y me quede a ver por dentro, ahi encontre un mouse decente a 15 euros.\n\nTambién de paso encontré que en el piso de arriba del todo estaba lleno de cosas de videojuegos y anime, así que al final tuve que echar un vistazo, y también compre una cosa para un compañero de clase, que ahora me debe unos 30 euros cuando vuelva…",
-        "image": ["/img/fat_pikachu_&_eevee.jpg", "/img/sonic_x.jpg", "/img/one_piece_card.jpeg", "/img/detective_connan.jpg", "/img/girls_und_panzer.jpg"]
+        "image": ["/img/03_03_2026/fat_pikachu_&_eevee.jpg", "/img/03_03_2026/sonic_x.jpg", "/img/03_03_2026/one_piece_card.jpeg", "/img/03_03_2026/detective_connan.jpg", "/img/03_03_2026/girls_und_panzer.jpg"]
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "emoji": "🖥️",
         "excerpt": "Preparando Wordpress local.",
         "content": "Hoy tuve otra reunión con mi jefa, esta vez para aclarar cosas del trabajo, ya que el wordpress lo tengo que hacer local, no se que tan bien irá mi wordpress con este xampp que anda dando errores todo el rato que puede, ni reinstalarlo sirve, pero bueno, por ahora he podido hacer que el wordpress funcione de manera local, ahora debo hacer que luzca exactamente igual a la página de tanz der kulturen.",
-        "image": "/images/hamburg-wordpress.jpg"
+        "image": ""
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "emoji": "⚠️",
         "excerpt": "Cambios inesperados en el proyecto.",
         "content": "Otra reunión más, esta vez fue para decirme que tengo que hacer que no sea de manera local, sino online, haciendo que tenga que rehacer todo lo que tenia, lo malo de verdad es cuando me pidieron que encontrase un tema bueno para la pagina, pero en wordpress no tenía los roles para poder hacerlo, así que tuve que esperar a que me cambian los roles…\n\nEmpezamos bien el trabajo en esta empresa…",
-        "image": "/images/default.jpg"
+        "image": ""
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
         "emoji": "📅",
         "excerpt": "Días centrados en trabajo y preparación.",
         "content": "Estos días fueron más enfocados en si en el trabajo en la empresa, así que no estuve saliendo mucho de casa, lo máximo que estuve saliendo era para comprar en si comida.\n\nTambién fueron para preparar algunas cosas de Erasmus como algunos videos requeridos y otras cosas, pero poco más.",
-        "image": "/images/default.jpg"
+        "image": ""
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
         "emoji": "🥪",
         "excerpt": "Me robaron la comida.",
         "content": "Este dia cambio para mi mucho el ambiente en donde vivo, ya que al parecer la gente que vive aquí no tienen ningún tipo de indicio de autocontrol alguno, ya que por alguna razón deciden que todo lo que está dentro de la nevera, inclusive si la comida que está dentro está nombrada, la usaran igual.\n\nEsto me ha pasado ya, siendo que compre unas lonchas de jamón para usar toda la semana, ese jamón lo compre a las 9 AM… y acabo siendo usado ese mismo día, llevándome la grata sorpresa cuando me iba a hacer el sándwich de noche que ya había sido usado y tirado a la basura.\n\nDespués de esto decidí que no iba a acercar nada de mi comida a la nevera de la cocina y buscaría alguna forma de arreglarmelas.",
-        "image": "/images/default.jpg"
+        "image": ""
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
         "emoji": "🔑",
         "excerpt": "Encontré una habitación con nevera.",
         "content": "Esta es como una semi continuación de la entrada anterior, ya que he descubierto algo bastante bueno para mi, siendo que en la planta de abajo hay una habitación vacía con una nevera privada!\n\nLiteralmente me venía de anillo al dedo! Y justo estaban cambiando la cerradura de la puerta para poder meter a gente ahi dentro, asi que hable con el dueño diciéndole que necesitaba un espacio vacío de trabajo para yo estar, ya que estoy casi 24/7 dentro del apartamento trabajando, se tardo un poco pero a base de ser pesado se consiguió y cuando estuviese en condiciones podría mudarme a esta habitación.",
-        "image": "/images/default.jpg"
+        "image": ""
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@
         "emoji": "🤔",
         "excerpt": "Sistema extraño de traducciones.",
         "content": "Este dia no paso mucho, pero algo que quería comentar que me pasó mientras trabajaba es que se me hace super raro es el como quieren las traducciones de su página, siendo que lo quieren introducir en su ruta por alguna razón?\n\nEstilo entiendo el porque hasta cierta medida, pero las razones son bastante crudas, aparte de que hacerlo así será hacer páginas extra para cada una de las páginas nuevas creadas siendo excesivo de cojones, pero al parecer quieren que sea asi si o si, aunque otras páginas usaban mi metodo, pero bueno.",
-        "image": "/images/default.jpg"
+        "image": ""
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@
         "emoji": "💸",
         "excerpt": "Precios absurdos en domingo.",
         "content": "Este día tampoco estuvo muy interesante, principalmente por ser un domingo sin nada que hacer básicamente, eso sí, ni de coña vuelvo a ir a comprar aquí en un domingo, los precios de los únicos sitios de comidas abiertos están más inflados que la economía venezolana.\n\nEstilo, me cobraron casi 4 euros por unas papas, y no era un saco mediano, sino uno pequeñito, ni de coña vuelvo a comprar en esas tiendas.",
-        "image": "/images/default.jpg"
+        "image": ""
     },
     {
         "id": 11,
@@ -107,7 +107,7 @@
         "emoji": "🏠",
         "excerpt": "Cambio a un espacio mejor.",
         "content": "Finalmente han arreglado la habitación de abajo y me han dicho que ya me puedo cambiar, ¡y era justo como lo que esperaba!\n\nNo tengo a nadie, me puedo despertar a las 8AM y ponerme a trabajar sin molestar a nadie por esas horas sin tener que morirme de frío y ¡tengo una nevera! Eso sí, parece que el internet es mucho peor aquí abajo que arriba, pero bueno, yo diría que es un intercambio equivalente, y yo la verdad estoy completamente dispuesto a pagar el precio.",
-        "image": "/images/default.jpg"
+        "image": "/img/16_03_2026/20260405_125523.jpg"
     },
     {
         "id": 12,
@@ -117,7 +117,7 @@
         "emoji": "🔄",
         "excerpt": "Cambios importantes en el proyecto.",
         "content": "Hoy tuve otra charla con el líder del front end de la empresa, en la cual tuve que prepararme unas preguntas, y al parecer voy a tener que casi rehacer mi trabajo entero…\n\nPERO BUENO, a quien le importa no? No es como si llevase como unos 17 DÍAS trabajando en ellos! Jaja… Ugh… Igualmente al menos ahora podré tener visto bueno en todo lo que haga de ahora en adelante por mis superiores y podré hacerlo más dinámico con Wordpress…\n\nYipe…",
-        "image": "/images/default.jpg"
+        "image": ""
     },
     {
         "id": 13,
@@ -127,7 +127,7 @@
         "emoji": "🪑",
         "excerpt": "Por fin tengo silla.",
         "content": "Queréis que os cuente un DATO CURIOSO que debería haber comentado desde hace mucho tiempo?\n\nBien, pues llevo todo este tiempo trabajando en el suelo, si, asi como lo oyes, teniendo una mesita que me lleva hasta las rodillas para poder apoyar mi laptop y poder trabajar, y claro, como es de imaginar, podéis imaginar como esta mi espalda ya…\n\nAsí que he decidido hablar con el anfitrión y me ha dejado una silla aquí para poder trabajar de manera eficaz sin poder romperme la espalda, asi que adios mesita pequeña que me ayudaba tanto! No te extrañaré mucho pero agradezco tu existencia, si no fuera por ti tendría que haber estado trabajando acostado en el suelo!\n\n(Tampoco me preguntéis porque no hice esto antes, estoy igual que vosotros)",
-        "image": "/images/default.jpg"
+        "image": "/img/18_03_2026/20260405_125634.jpg"
     },
     {
         "id": 14,
@@ -137,7 +137,7 @@
         "emoji": "😴",
         "excerpt": "Nada destacable.",
         "content": "Hoy no ha habido mucho de qué hablar, ha habido una reunión para hablar sobre el proyecto de fin de curso que tenemos que tener hecho del mercadillo y parece que se han puesto ya las pilas, bastante bueno la verdad, notaba el chat de ese proyecto bastante muerto…\n\nPoco más ha pasado por aquí, bueno exceptuando que pasó un chico aqui un dia solo para dormir unas 12 HORAS CONTADAS AL LADO MIO y luego irse tan pancho como a las 11PM, espero que no sea ningún tipo de patrón y que el dueño piense que tener a un chico que se quede 3 meses y gente que va y viene juntos sea una buena idea, pero bueno no me molesta.",
-        "image": "/images/default.jpg"
+        "image": ""
     },
     {
         "id": 15,
@@ -147,6 +147,96 @@
         "emoji": "🗑️",
         "excerpt": "Necesito una papelera.",
         "content": "Al final me he dado cuenta de una cosa de mi habitación siendo que, no tengo una basura en sí, en plan, no me hace mucha falta porque uso una de mis estrategias de supervivencia 101, siendo la de usar todo lo que no has tirado para utilizarlo, usando siempre mis bolsas de papas como basura, pero creo que tener una cubo de basura de verdad vendría bastante bien también.\n\nOtra cosa también es que ha aparecido una tía que dice que se quedará hasta el domingo, no se si es por la mañana cuando se va o por la noche, pero bueno, mientras no toque mi nevera personal u otra cosas no me importa.",
-        "image": "/img/trashcan.jpeg"
+        "image": "/img/20_03_2026/trashcan.jpeg"
+    },
+    {
+        "id": 16,
+        "title": "Día sin novedades",
+        "date": "21/03/2026",
+        "city": "Hamburg",
+        "emoji": "😐",
+        "excerpt": "Un día tranquilo con una visita breve.",
+        "content": "Hoy no ha sido un día muy interesante la verdad. Lo único destacable es que una señora vino a hospedarse aquí, pero solo se quedará hasta mañana.\n\nSiento que debería empezar a hacer más planes o algo. Está bien tener tiempo para ponerme al día con series mientras entreno, pero también quiero salir más y hacer fotos del sitio.\n\nAdemás, NECESITO comprarme alguno de esos peluches de Pokémon del MediaMarkt…",
+        "image": ""
+    },
+    {
+        "id": 17,
+        "title": "Espaguetis fallidos",
+        "date": "22/03/2026",
+        "city": "Hamburg",
+        "emoji": "🍝",
+        "excerpt": "Cocina desastrosa y despedida.",
+        "content": "Hoy ha sido bastante parecido al anterior. La chica que mencioné en la entrada anterior ya se fue, así que poco más movimiento por aquí.\n\nLo único reseñable (y no precisamente para bien) fue que hice espaguetis… y quedaron crudos por dentro porque los saqué demasiado pronto del agua.\n\nPrefiero no entrar en detalles. El sabor ya fue suficiente humillación.",
+        "image": ""
+    },
+    {
+        "id": 18,
+        "title": "Problemas en la cocina",
+        "date": "23/03/2026",
+        "city": "Hamburg",
+        "emoji": "🍳",
+        "excerpt": "La cocina empieza a dar problemas a todos.",
+        "content": "Hoy fue un día de trabajo sin mucho más que añadir.\n\nEso sí, parece que la gente aquí está empezando a darse cuenta de los problemas de la cocina y ya empieza a molestarles. Menos mal que fui el suficientemente listo como para pillar esta habitación.",
+        "image": ""
+    },
+    {
+        "id": 19,
+        "title": "La papelera pequeña",
+        "date": "24/03/2026",
+        "city": "Hamburg",
+        "emoji": "🗑️",
+        "excerpt": "Problemas absurdos con la basura.",
+        "content": "Hoy, después de terminarme un refresco, me di cuenta de algo: la papelera que tengo es… demasiado pequeña.\n\nLe pregunté al dueño si podía usar la otra que estaba afuera, pero me dijo que era “necesaria” allí, así que nada.\n\nTampoco es que me queje demasiado, pero oye, uno siempre puede aspirar a algo mejor, ¿no?",
+        "image": ""
+    },
+    {
+        "id": 20,
+        "title": "Semana infernal de trabajo",
+        "date": "25/03/2026 - 30/03/2026",
+        "city": "Hamburg",
+        "emoji": "🔥",
+        "excerpt": "Rehacer todo el trabajo desde cero.",
+        "content": "Si antes pensaba que tenía días de trabajo intensos… esta semana ha sido otro nivel.\n\nHe estado tantas horas trabajando que casi se me queda la espalda pegada a la silla. Básicamente tuve que rehacer todo lo que había hecho para adaptarlo a un sistema de bloques.\n\nY sí, al final funciona de maravilla, pero habría estado MUCHÍSIMO MEJOR que me lo hubiesen pedido así desde el principio para no tener que rehacer el trabajo de dos semanas.\n\nPero bueno, a lo hecho pecho. Está terminado.\n\nY pensar que este ha sido solo el primer mes…\n\nOh dios.",
+        "image": ""
+    },
+    {
+        "id": 21,
+        "title": "Reunión presencial",
+        "date": "31/03/2026",
+        "city": "Hamburg",
+        "emoji": "📸",
+        "excerpt": "Reunión y fotos por la ciudad.",
+        "content": "Por problemas de horarios tuvimos que rehacer la reunión, pero eso tuvo algo positivo.\n\nPude hacerla de forma presencial con mi supervisora Stephanie, lo cual me permitió también explorar la zona cerca de su casa y hacer algunas fotos bastante interesantes.",
+        "image": ["/img/31_03_2026/20260331_134644.jpg", "/img/31_03_2026/20260331_134440.jpg", "/img/31_03_2026/20260331_134400.jpg", "/img/31_03_2026/20260302_130251.jpg"]
+    },
+    {
+        "id": 22,
+        "title": "Pequeñas mejoras",
+        "date": "01/04/2026",
+        "city": "Hamburg",
+        "emoji": "📈",
+        "excerpt": "Día de trabajo y cocina mejorada.",
+        "content": "Hoy estuve bastante centrado en el trabajo, sin mucho más que destacar.\n\nEso sí, esta vez los espaguetis salieron bastante mejor.\n\nProgreso.",
+        "image": ""
+    },
+    {
+        "id": 23,
+        "title": "Crisis en Wordpress",
+        "date": "02/04/2026 - 03/04/2026",
+        "city": "Hamburg",
+        "emoji": "🚨",
+        "excerpt": "Error crítico en la web.",
+        "content": "Estos dos días fueron un auténtico caos.\n\nHubo un problema crítico con la página de Wordpress que nos obligó a hacer varias reuniones para solucionarlo.\n\nAl final, la solución fue más simple de lo esperado: entrar en el modo seguro y corregir un error en el functions.php que apuntaba a código inexistente.\n\nMucho drama para algo relativamente sencillo, pero al menos ya está solucionado.",
+        "image": ""
+    },
+    {
+        "id": 24,
+        "title": "Estrés familiar",
+        "date": "04/04/2026",
+        "city": "Hamburg",
+        "emoji": "😤",
+        "excerpt": "Problemas desde casa.",
+        "content": "Hoy ha sido un día MUY estresante.\n\nMi madre decidió que quería irse de casa por un tiempo… y básicamente me lo comunicó como algo secundario.\n\nEl problema no es tanto eso, sino que tenemos una gata. Y la persona que va a cuidarla no puede ir el domingo.\n\nEstamos hablando de un animal que se pasa el día fuera y que perfectamente podría desaparecer si no se controla bien.\n\nY ella simplemente me dice “no te preocupes”.\n\nLiteralmente lo único que quiero es que cuando vuelva, mi gata siga ahí.\n\nMenudo inicio de abril.",
+        "image": ""
     }
 ]

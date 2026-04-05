@@ -10,12 +10,12 @@ import { Howl } from 'howler';
 function MainPage() {
   const [windows, setWindows] = useState([]);
   const [isMuted, setIsMuted] = useState(false);
-  const [volume, setVolume] = useState(3);
+  const [volume, setVolume] = useState(6);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
-  const clickSound = new Howl({ src: ['/sounds/click.mp3'], volume: 0.03 });
-  const openSound = new Howl({ src: ['/sounds/open.mp3'], volume: 0.03 });
-  const closeSound = new Howl({ src: ['/sounds/close.mp3'], volume: 0.03 });
+  const clickSound = new Howl({ src: ['/sounds/click.mp3'], volume: 0.06 });
+  const openSound = new Howl({ src: ['/sounds/open.mp3'], volume: 0.06 });
+  const closeSound = new Howl({ src: ['/sounds/close.mp3'], volume: 0.06 });
 
   const musicRef = useRef(null);
 
