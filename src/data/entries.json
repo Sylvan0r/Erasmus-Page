@@ -238,5 +238,55 @@
         "excerpt": "Problemas desde casa.",
         "content": "Hoy ha sido un día MUY estresante.\n\nMi madre decidió que quería irse de casa por un tiempo… y básicamente me lo comunicó como algo secundario.\n\nEl problema no es tanto eso, sino que tenemos una gata. Y la persona que va a cuidarla no puede ir el domingo.\n\nEstamos hablando de un animal que se pasa el día fuera y que perfectamente podría desaparecer si no se controla bien.\n\nY ella simplemente me dice “no te preocupes”.\n\nLiteralmente lo único que quiero es que cuando vuelva, mi gata siga ahí.\n\nMenudo inicio de abril.",
         "image": ""
+    },
+    {
+        "id": 25,
+        "title": "Días tranquilos de trabajo",
+        "date": "05/04/2026 - 14/04/2026",
+        "city": "Hamburg",
+        "emoji": "💻",
+        "excerpt": "Trabajo constante sin grandes novedades.",
+        "content": "Estos días fueron muy tranquilos la verdad, no hubo mucho que comentar, principalmente porque todo lo importante ocurrido fue más bien cosas del trabajo, estilo arreglando estilos, debatiendo con mis superiores de cómo debería lucir, etc.\n\nLo bueno es que ya estamos casi a punto de acabar todo el trabajo de la página web, haciendo que muy probablemente el último mes para mí sea de turismo completo, lo cual oye, no te voy a mentir, vendría bastante bien.",
+        "image": ""
+    },
+    {
+        "id": 26,
+        "title": "Reunión y pequeño desastre",
+        "date": "15/04/2026",
+        "city": "Hamburg",
+        "emoji": "📍",
+        "excerpt": "Me perdí antes de una reunión.",
+        "content": "Hoy tuvimos un día un poquito más especial, siendo que tuvimos una reunión, en la cual antes de poder ir, me perdí un poquito jeje, parece que no me he acostumbrado como creía al sistema de metros, pero bueno, al fin y al cabo acabé llegando a la zona de reunión, que es lo que importaba.\n\nAunque eso sí, siempre me han enseñado de sacar lo mejor de los errores, así que hice algunas fotos y vídeos de los sitios nuevos e interesantes que vi.",
+        "image": ["./img/15_04_2026/1000034312.jpg", "./img/15_04_2026/1000034755.jpg", "./img/15_04_2026/1000034751.mp4"]
+    },
+    {
+        "id": 27,
+        "title": "Día normal pero decente",
+        "date": "16/04/2026",
+        "city": "Hamburg",
+        "emoji": "🚶",
+        "excerpt": "Trabajo y paseo sin perderme.",
+        "content": "Hoy fue uno de esos días que parecen normales pero al final tienen sus cosillas. En el trabajo seguimos bastante centrados en los últimos detalles de la web, arreglando bugs pequeños que van saliendo y puliendo algunas cosas de diseño que a última hora siempre parecen no convencer del todo.\n\nEso sí, hoy me sentí un poco más cómodo con todo, como que ya voy pillando mejor el ritmo de cómo trabajan aquí, aunque a veces sigo sin entender muy bien algunas decisiones que toman.\n\nDespués del trabajo salí un rato a dar una vuelta, sin perderme esta vez (milagro), y la verdad es que se agradece desconectar un poco.",
+        "image": ""
+    },
+    {
+        "id": 28,
+        "title": "Explorando un poco más",
+        "date": "17/04/2026",
+        "city": "Hamburg",
+        "emoji": "🧭",
+        "excerpt": "Exploración y algo de cansancio.",
+        "content": "Hoy sí que fue un día un poco más movidito, pero no necesariamente en el mal sentido. En el trabajo hubo bastante movimiento porque ya estamos literalmente en la recta final, así que había bastante prisa por cerrar cosas.\n\nLo curioso del día fue después, porque me dio por explorar un poco más lejos de lo habitual, en plan \"a ver hasta dónde llego sin liarla\". Y sorprendentemente, no solo no me perdí, sino que encontré un par de sitios bastante guapos.\n\nEso sí, también noté que el cansancio se va acumulando, entre el trabajo y todo, pero sabiendo que queda menos tiempo se lleva mejor.",
+        "image": ""
+    },
+    {
+        "id": 29,
+        "title": "Vecinos sospechosos",
+        "date": "18/04/2026",
+        "city": "Hamburg",
+        "emoji": "😵",
+        "excerpt": "Un vecino bastante raro.",
+        "content": "Mira que es fin de semana, pero no me dejan estar quieto, si no son los de prácticas, son los \"PERSONAJES\" que tengo como vecinos. Hoy a las 9 AM, me vino un tío (bastante ancho y más mayor que yo que vive al lado mío Y RONCA COMO UN CERDO) a pedirme ayuda con un problema de su iPhone 11.\n\nAl parecer necesitaba un ordenador para actualizarlo, lo cual me esperaba de Apple, impidiendo actualizar un móvil porque no tienes PC, un clásico de ellos.\n\nIgualmente, como buen samaritano le dije que sí, pero cuando empecé a instalar todo empezó a decir cosas que me preocuparon MUCHÍSIMO.\n\nEstilo que al parecer estaba consumiendo cocaína al lado mío??? Y no en plan broma. También decía que no le hacía sentir feliz sino enfadado.\n\nY no, no parecía coña, el tío tiene una salud PÉSIMA, le cuesta respirar y se duerme todo el rato.\n\nEncima estuvo pesado con lo de no usar iTunes, tocando mi ordenador (vigilado obviamente) y al final nada, decidió hacer restore de fábrica.\n\nPara rematar, parece que es ruso.\n\nGenial el día de hoy y para nada preocupado.\n\n(Me quiero ir a casa YA HERMANO)",
+        "image": ""
     }
 ]
