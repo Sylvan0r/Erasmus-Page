@@ -7,7 +7,7 @@
         "emoji": "⚓",
         "excerpt": "Llegué de noche y tomé un taxi al apartamento.",
         "content": "Llegué a Hamburgo de noche alrededor de las 11pm en horario de Hamburgo, intente usar los metros cercanos al aeropuerto, pero era mucho trabajo el entenderlo y esperar por el metro, así que decidí directamente pedir un taxi que me trajera a mi apartamento.\n\nEstá algo bastante sucio por la cantidad de personas que viven aquí, pero es lo suficientemente acogedor para que no me importe.",
-        "image": ["./img/01_03_2026/20260303_163759.jpg", "./img/01_03_2026/20260303_163405.jpg"]
+        "image": ["./img/01_03_2026/20260303_163759.jpg", "./img/01_03_2026/20260303_163405.jpg", "./img/01_03_2026/weird_statue.jpg"]
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@
         "emoji": "🛍️",
         "excerpt": "Turismo, fotos y búsqueda de un mouse.",
         "content": "Hoy estuve haciendo cosas del trabajo final de ASIR, pero ya me tiene harto el que mi mouse este tan roto y que tenga que usar el botón secundario como principal, así que he decidido salir a hacer turismo y encontrar un mouse nuevo, he tomado muchas fotos en mi sesion de turismo, hasta vi una revuelta, no se porque era en primer lugar pero se me hizo chistoso, igualmente encontre un mediamarkt gigantesco y me quede a ver por dentro, ahi encontre un mouse decente a 15 euros.\n\nTambién de paso encontré que en el piso de arriba del todo estaba lleno de cosas de videojuegos y anime, así que al final tuve que echar un vistazo, y también compre una cosa para un compañero de clase, que ahora me debe unos 30 euros cuando vuelva…",
-        "image": ["./img/03_03_2026/fat_pikachu_&_eevee.jpg", "./img/03_03_2026/sonic_x.jpg", "./img/03_03_2026/one_piece_card.jpeg", "./img/03_03_2026/detective_connan.jpg", "./img/03_03_2026/girls_und_panzer.jpg"]
+        "image": ["./img/03_03_2026/fat_pikachu_&_eevee.jpg", "./img/03_03_2026/sonic_x.jpg", "./img/03_03_2026/one_piece_card.jpeg", "./img/03_03_2026/detective_connan.jpg", "./img/03_03_2026/girls_und_panzer.jpg", "./img/03_03_2026/more_physical_animes.jpg"]
     },
     {
         "id": 4,
@@ -207,7 +207,7 @@
         "emoji": "📸",
         "excerpt": "Reunión y fotos por la ciudad.",
         "content": "Por problemas de horarios tuvimos que rehacer la reunión, pero eso tuvo algo positivo.\n\nPude hacerla de forma presencial con mi supervisora Stephanie, lo cual me permitió también explorar la zona cerca de su casa y hacer algunas fotos bastante interesantes.",
-        "image": ["./img/31_03_2026/20260331_134644.jpg", "./img/31_03_2026/20260331_134440.jpg", "./img/31_03_2026/20260331_134400.jpg", "./img/31_03_2026/20260302_130251.jpg"]
+        "image": ["./img/31_03_2026/20260331_134644.jpg", "./img/31_03_2026/20260331_134440.jpg", "./img/31_03_2026/20260331_134400.jpg", "./img/31_03_2026/20260302_130251.jpg", "./img/31_03_2026/1000034313.jpg"]
     },
     {
         "id": 22,
@@ -267,7 +267,7 @@
         "emoji": "🚶",
         "excerpt": "Trabajo y paseo sin perderme.",
         "content": "Hoy fue uno de esos días que parecen normales pero al final tienen sus cosillas. En el trabajo seguimos bastante centrados en los últimos detalles de la web, arreglando bugs pequeños que van saliendo y puliendo algunas cosas de diseño que a última hora siempre parecen no convencer del todo.\n\nEso sí, hoy me sentí un poco más cómodo con todo, como que ya voy pillando mejor el ritmo de cómo trabajan aquí, aunque a veces sigo sin entender muy bien algunas decisiones que toman.\n\nDespués del trabajo salí un rato a dar una vuelta, sin perderme esta vez (milagro), y la verdad es que se agradece desconectar un poco.",
-        "image": ""
+        "image": ["./img/16_04_2026/1000034298.jpg", "./img/16_04_2026/1000034300.jpg"]
     },
     {
         "id": 28,
@@ -327,7 +327,7 @@
         "emoji": "📸",
         "excerpt": "Reunión con Stephanie y opiniones sobre la ciudad.",
         "content": "Hoy tuve otra reunion con mi jefa stephanie, haciendo que pudiese hacer unos cuantos videos/fotos nuevos para mostraros el sitio!\n\nAunque debo decir algo de mi estancia en Hamburg, no me gusta NADA que todo esto sea TAN plano sabes? Supongo que sera de que es porque vengo de una isla bastante… bueno tu me entiendes… el punto es que no me gusta que sea tan plano sabes? que si, hara que el transporte publico y el uso de bicis/scooters sea mas comun y mejor para el medio ambiente y todo, pero mis caminatas largas no son lo mismo sin tener que subir una cuesta sabes?",
-        "image": ""
+        "image": ["./img/23_04_2026/1000034301.jpg", "./img/23_04_2026/1000034302.mp4"]
     },
     {
         "id": 34,

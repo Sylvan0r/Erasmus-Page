@@ -1,7 +1,13 @@
 import { useState, useEffect } from 'react';
 
 export default function PostDetail({ post, onBack, clickSound, openSound, closeSound }) {
-  const [selectedImg, setSelectedImg] = useState(null);
+  const [selectedMedia, setSelectedMedia] = useState(null);
+
+  // Detectar si es video o imagen
+  const isVideo = (src) => {
+    const videoExtensions = ['.mp4', '.webm', '.ogg', '.mov', '.avi', '.mkv'];
+    return videoExtensions.some(ext => src.toLowerCase().includes(ext));
+  };
 
   useEffect(() => {
     clickSound.play();
@@ -9,7 +15,7 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
 
   // 🚫 BLOQUEAR SCROLL GLOBAL
   useEffect(() => {
-    if (selectedImg) {
+    if (selectedMedia) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = 'auto';
@@ -18,7 +24,7 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
     return () => {
       document.body.style.overflow = 'auto';
     };
-  }, [selectedImg]);
+  }, [selectedMedia]);
 
   const allImages = post.images 
     ? (Array.isArray(post.images) ? post.images : [post.images]) 
@@ -44,7 +50,7 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
       </div>
 
       {/* CONTENIDO */}
-      <div className={`flex-1 px-4 md:px-8 pb-8 pt-4 space-y-6 ${selectedImg ? 'overflow-hidden' : 'overflow-y-auto'}`}>
+      <div className={`flex-1 px-4 md:px-8 pb-8 pt-4 space-y-6 ${selectedMedia ? 'overflow-hidden' : 'overflow-y-auto'}`}>
         
         {/* INFO */}
         <div className="flex items-center gap-4 bg-[#112240]/60 p-3 rounded-lg border border-[#3b5b43]">
@@ -65,25 +71,40 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
             </p>
           </div>
 
-          {/* IMÁGENES */}
+          {/* MEDIA (IMÁGENES Y VIDEOS) */}
           {hasImages && (
             <div className="flex-1 lg:max-w-[45%]">
               <div className="flex flex-col gap-4">
-                {allImages.map((img, index) => (
+                {allImages.map((media, index) => (
                   <div 
                     key={index}
-                    className="group aspect-video overflow-hidden rounded-xl cursor-zoom-in border-4 border-double border-[#f6c253]"
+                    className="group aspect-video overflow-hidden rounded-xl cursor-zoom-in border-4 border-double border-[#f6c253] relative"
                     onClick={() => {
                       clickSound.play();
                       openSound.play();
-                      setSelectedImg(img);
+                      setSelectedMedia(media);
                     }}
                   >
-                    <img 
-                      src={img} 
-                      alt="" 
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                    />
+                    {isVideo(media) ? (
+                      <>
+                        <video 
+                          src={media} 
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        />
+                        {/* BOTÓN PLAY */}
+                        <div className="absolute inset-0 flex items-center justify-center group-hover:bg-black/10 transition-colors">
+                          <button className="w-16 h-16 bg-[#f6c253] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform group-hover:scale-110">
+                            <span className="text-3xl text-[#4a2e1b] ml-1">▶</span>
+                          </button>
+                        </div>
+                      </>
+                    ) : (
+                      <img 
+                        src={media} 
+                        alt="" 
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      />
+                    )}
                   </div>
                 ))}
               </div>
@@ -94,19 +115,29 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
       </div>
 
       {/* MODAL FULLSCREEN */}
-      {selectedImg && (
+      {selectedMedia && (
         <div
           className="fixed inset-0 bg-black z-[999] flex items-center justify-center cursor-zoom-out"
           onClick={() => {
             closeSound.play();
-            setSelectedImg(null);
+            setSelectedMedia(null);
           }}
         >
-          <img
-            src={selectedImg}
-            alt="Fullscreen"
-            className="w-full h-full object-contain"
-          />
+          {isVideo(selectedMedia) ? (
+            <video
+              src={selectedMedia}
+              alt="Fullscreen Video"
+              className="w-full h-full object-contain"
+              autoPlay
+              controls
+            />
+          ) : (
+            <img
+              src={selectedMedia}
+              alt="Fullscreen"
+              className="w-full h-full object-contain"
+            />
+          )}
 
           {/* BOTÓN CERRAR */}
           <button 
@@ -114,7 +145,7 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
             onClick={(e) => {
               e.stopPropagation();
               closeSound.play();
-              setSelectedImg(null);
+              setSelectedMedia(null);
             }}
           >
             ✕
