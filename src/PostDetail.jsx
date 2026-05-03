@@ -37,9 +37,13 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
       
       {/* HEADER */}
       <div className="flex justify-between items-center px-4 md:px-8 py-4 border-b-4 border-double border-[#f6c253] bg-[#1e3a5f] z-20 shrink-0">
-        <h2 className="text-xl md:text-2xl font-black text-[#f6c253] uppercase tracking-wide truncate mr-4">
-          {post.title}
-        </h2>
+        <div className="flex-1 min-w-0 flex items-center gap-3 mr-1 bg-[#112240]/60 p-3 rounded-lg border border-[#3b5b43]">
+          <span className="text-4xl">{post.emoji}</span>
+          <div className="min-w-0">
+            <p className="text-[#f6c253] text-xs font-bold uppercase">Fecha</p>
+            <p className="text-blue-200 text-sm truncate">{post.date}</p>
+          </div>
+        </div>
 
         <button
           onClick={() => { closeSound.play(); onBack(); }}
@@ -51,15 +55,6 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
 
       {/* CONTENIDO */}
       <div className={`flex-1 px-4 md:px-8 pb-8 pt-4 space-y-6 ${selectedMedia ? 'overflow-hidden' : 'overflow-y-auto'}`}>
-        
-        {/* INFO */}
-        <div className="flex items-center gap-4 bg-[#112240]/60 p-3 rounded-lg border border-[#3b5b43]">
-          <span className="text-5xl">{post.emoji}</span>
-          <div>
-            <p className="text-[#f6c253] text-xs font-bold uppercase">Fecha</p>
-            <p className="text-blue-200 text-sm">{post.date}</p>
-          </div>
-        </div>
 
         {/* LAYOUT DINÁMICO */}
         <div className={`flex flex-col ${hasImages ? 'lg:flex-row gap-6' : ''}`}>
