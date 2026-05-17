@@ -353,8 +353,15 @@
         "city": "Hamburg",
         "emoji": "📅",
         "excerpt": "Días sin grandes novedades.",
-        "content": "Estos dos dias fueron solo de trabajo, no hubo mucho importante aqui, que ahora que me doy cuenta, mis semanas al parecer son o “No ha pasado nada interesante que deba documentar” o “He descubierto una mafia al lado de donde vivo”, vale bueno esta ultima es un poco una exageración bastante grande, pero tu me entiendes no?",
-        "image": ""
+        "content": "Estos dos dias fueron mayoritariamente solo de trabajo, no hubo mucho importante aqui, y ahora que me doy cuenta, mis semanas al parecer son o “No ha pasado nada interesante que deba documentar” o “He descubierto una mafia al lado de donde vivo”, vale bueno esta ultima es un poco una exageración bastante grande, pero tu me entiendes no?\n\nAunque eso si, dije antes MAYORITARIAMENTE por algo, ya que pude ir a explorar por ahi porque me aburria bastante y pude encontrar un sitio que parecia molar.\n\n ¡Y menos mal que lo hice! Ya que pude ver un monton de cosas bastante guapas, como unos coches hechos de legos y tambien pude comprarme un inkling rosita de Splatoon bastante bonito, asi que oye no me puedo quejar tanto de estos dos dias.",
+        "image": [
+            "./img/2026-04-21-22/cool_looking_place.jpg",
+            "./img/2026-04-21-22/lego_car_front.jpg",
+            "./img/2026-04-21-22/lego_car_side.jpg",
+            "./img/2026-04-21-22/lego_car_closeup.jpg",
+            "./img/2026-04-21-22/lego_car_small.jpg",
+            "./img/2026-04-21-22/wommy.jpg"
+        ]
     },
     {
         "id": 34,
@@ -457,7 +464,21 @@
         "emoji": "🧲",
         "excerpt": "Reunión con Stephanie y turismo improvisado.",
         "content": "Hoy tuve una reunión con Stephanie donde estuvimos haciendo bastantes cambios a la página web y organizando algunas otras cosas relacionadas con el proyecto.\n\nPero sinceramente lo más destacable del día fue lo que pasó después de terminar la reunión presencial. Aproveché para explorar un poco más los alrededores, lo cual me vino genial porque quería encontrar algún pin de nevera para mis padres, ya que ellos coleccionan bastantes cuando viajan, así que pensé que sería un buen detalle.\n\nMientras caminaba pude ver varios sitios bastante bonitos e interesantes, de esos que te hacen parar un momento solo para mirar alrededor y sacar algunas fotos.\n\nLa verdad se agradece bastante poder desconectar un poco después de tantas semanas centrado casi únicamente en trabajo.",
-        "image": ""
+        "image": [
+            "./img/2026-05-05/tree_park.jpg",
+            "./img/2026-05-05/parkordnung.jpg",
+            "./img/2026-05-05/damn_nice_park.jpg",
+            "./img/2026-05-05/it_has_sand.jpg",
+            "./img/2026-05-05/mini_river_hehe.mp4",
+            "./img/2026-05-05/french_climbing_tower.jpg",
+            "./img/2026-05-05/thats_big.jpg",
+            "./img/2026-05-05/what_is_that.jpg",
+            "./img/2026-05-05/thats_a_big_place.mp4",
+            "./img/2026-05-05/top_view_big_place.jpg",
+            "./img/2026-05-05/big_clock_black.jpg",
+            "./img/2026-05-05/german_church_statue.jpg",
+            "./img/2026-05-05/german_church_statue2.jpg"
+        ]
     },
     {
         "id": 44,
@@ -477,7 +498,10 @@
         "emoji": "📚",
         "excerpt": "Salí a caminar y acabé entrando en una tienda de anime.",
         "content": "Hoy la verdad tenía ganas de salir a caminar un rato para despejar la mente de todo el tema del trabajo y demás.\n\nAsí que eso hice, me fui a dar una vuelta tranquilamente escuchando música mientras miraba algunas tiendas por el camino a ver si encontraba algo interesante.\n\nY claro… pasando por ahí me encontré una tienda de manga y anime que CLARAMENTE no miré para nada. Ujum. Completamente.\n\nIgualmente dentro había bastantes cosas curiosas y algunas bastante graciosas. El único problema es que todos los mangas estaban en alemán, lo cual sinceramente fue una tremenda decepción.\n\nY eso que encontré el tomo 2 del manga de Omori.\n\nPero bueno, al menos pude conseguir un anillo que luce bastante bien y que seguramente le gustará a mi madre cuando vuelva.",
-        "image": ""
+        "image": [
+            "./img/2026-05-08/river.jpg",
+            "./img/2026-05-08/people_crossing_the_river.jpg"
+        ]
     },
     {
         "id": 46,
@@ -487,6 +511,53 @@
         "emoji": "🚆",
         "excerpt": "Intentamos ir a jugar basket pero los trenes arruinaron el plan.",
         "content": "Este finde estuvo un poco movidito.\n\nUn vecino me ofreció ir a jugar al basket, así que obviamente le dije que sí, pero al parecer TODOS los trenes decidieron funcionar fatal justo hoy.\n\nLiteralmente ninguno llegaba a tiempo o iban retrasados, así que al final no pudimos ir a jugar.\n\nSupongo que tendría algo que ver con la tremenda fiesta que había por la ciudad, porque por la noche se escuchaban y veían bastantes fuegos artificiales y voladores.\n\nNo sé exactamente qué celebración era, pero definitivamente parecía algo importante.",
+        "image": [
+            "./img/2026-05-09/tall_building.jpg",
+            "./img/2026-05-09/tents.jpg",
+            "./img/2026-05-09/a_lot_of_people.jpg",
+            "./img/2026-05-09/funny_statue.jpg",
+            "./img/2026-05-09/a_lot_of_people2.jpg",
+            "./img/2026-05-09/books.jpg"
+        ]
+    },
+    {
+        "id": 47,
+        "title": "Días centrados en el trabajo",
+        "date": "10/05/2026 - 14/05/2026",
+        "city": "Hamburg",
+        "emoji": "💻",
+        "excerpt": "Semana bastante tranquila enfocada en terminar la web.",
+        "content": "Estos días fueron principalmente de trabajo y poco más la verdad.\n\nLa mayor parte del tiempo estuvimos haciendo cambios pequeños en la página, arreglando detalles visuales y dejando todo bastante más preparado para la recta final del proyecto.\n\nTambién fueron días donde me di cuenta de que ya estamos literalmente a nada de terminar todo esto, lo cual se siente bastante raro después de tantos meses aquí.\n\nLa verdad es que aunque no hayan sido días especialmente interesantes, sí se nota que todo empieza ya a encajar y que el proyecto está tomando forma de verdad.\n\nY sinceramente, viendo lo caótico que fue todo al principio, llegar a este punto se siente hasta raro.",
+        "image": ""
+    },
+    {
+        "id": 48,
+        "title": "Recta final del proyecto",
+        "date": "15/05/2026",
+        "city": "Hamburg",
+        "emoji": "🚀",
+        "excerpt": "La página ya está prácticamente terminada.",
+        "content": "Hoy ha sido un día bastante bueno la verdad.\n\nStephanie y yo tuvimos otra reunión donde estuvimos haciendo bastantes cambios y dejando muchas cosas terminadas. De hecho, ya tenemos casi toda la página lista.\n\nEl lunes que viene seguramente nos prepararemos para dejar la web online definitivamente, así que probablemente el resto de la semana será más bien para organizar cosas, revisar detalles y preparar documentación.\n\nEso sí, obviamente no podía faltar el drama semanal del sitio donde vivo.\n\nEl dueño volvió a cerrar OTRA VEZ la cocina principal porque al parecer van a hacer otra fiesta.\n\nY sinceramente ya me parece increíble.\n\n¿Ahora porque vienen unos random no puedo usar la cocina principal ni 2 de las 3 zonas donde puedo bañarme?\n\nEncima aquí la gente es increíblemente guarra y no sabe mantener un espacio limpio, así que tengo que seguir levantándome antes que todos para bañarme cuando todavía el baño está medio decente.\n\nPorque cada vez que paso por ahí más tarde, incluso solo para rellenar la botella de agua, parece que el baño empeora progresivamente.\n\nDefinitivamente este sitio merece un premio a \"experiencia social experimental\" o algo así.",
+        "image": ""
+    },
+    {
+        "id": 49,
+        "title": "Quejas absurdas",
+        "date": "16/05/2026",
+        "city": "Hamburg",
+        "emoji": "🔊",
+        "excerpt": "Mi vecino se queja del ruido en pleno día.",
+        "content": "Hoy no pasó mucho la verdad, aunque sí hubo una cosa bastante surrealista.\n\nEl vecino raro al que ayudé hace tiempo con el tema del iPhone vino a decirme que bajara la voz porque \"no podían dormir\".\n\nTodo esto mientras arriba estaban haciendo probablemente la fiesta más ruidosa posible.\n\nY lo mejor de todo:\n\nEran literalmente las 13:00 de la tarde.\n\nAsí que simplemente le dije “sí claro” y le cerré la puerta.\n\nTambién conocido como que su petición se fue directamente a la basura.\n\nPorque no solo había más gente haciendo muchísimo más ruido que yo, sino que además esto es básicamente un hotel lleno de gente, niños corriendo y personas entrando y saliendo constantemente.\n\nSi fueran las 2 de la mañana lo entendería.\n\n¿Pero a plena tarde?\n\nLo siento, pero mejor deja la cocaína y los bajones raros antes de venir a quejarte por eso.\n\nAunque siendo honestos, me acabo de dar cuenta de que como el 50% de este diario es simplemente yo contando lo peculiar que es la gente de este sitio.\n\nY la verdad, leyendo entradas anteriores… es hasta fascinante.",
+        "image": ""
+    },
+    {
+        "id": 50,
+        "title": "Preparando la vuelta a casa",
+        "date": "17/05/2026",
+        "city": "Hamburg",
+        "emoji": "✈️",
+        "excerpt": "Empiezo a organizar el viaje de vuelta.",
+        "content": "Hoy ha sido un día bastante tranquilo en general.\n\nBueno, obviando el hecho de que mi jefa decidió mandarme suficientes mensajes con cambios para la página como para ponerme a trabajar una hora entera.\n\nUn domingo.\n\nCriminal, sinceramente.\n\nPero bueno, dejando eso aparte, por ahora todo va bastante bien y el proyecto ya está prácticamente terminado.\n\nTambién hoy fui a comprobar la ruta que voy a tener que hacer para volver al aeropuerto, porque el próximo sábado aproximadamente a las 6:45 AM tengo que coger el avión de vuelta a España.\n\nDespués tocará hacer escala para Tenerife y finalmente otro avión hasta La Palma.\n\nEso sí, me parece increíble que el viaje empiece a las 6:45 de la mañana y termine llegando a casa alrededor de las 9 de la noche.\n\nPero bueno, supongo que así funcionan este tipo de viajes largos.",
         "image": ""
     }
 ]

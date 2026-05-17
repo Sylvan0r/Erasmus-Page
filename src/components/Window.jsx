@@ -45,7 +45,7 @@ const Window = ({ title, children, onClose, isOpen }) => {
 
                         <button 
                             onClick={handleClose} 
-                            className="text-[#f6c253] hover:text-[#ff5f56] text-xl font-black drop-shadow-[1px_1px_0_rgba(0,0,0,1)] transition-colors"
+                            className="text-[#f6c253] hover:text-[#ff5f56] text-xl font-black drop-shadow-[1px_1px_0_rgba(0,0,0,1)] transition-colors cursor-pointer"
                         >
                             ✕
                         </button>
@@ -106,7 +106,7 @@ const Window = ({ title, children, onClose, isOpen }) => {
 
                     <button 
                         onClick={handleClose} 
-                        className="text-[#f6c253] hover:text-[#ff5f56] text-xl font-black px-1 drop-shadow-[1px_1px_0_rgba(0,0,0,1)] transition-colors"
+                        className="text-[#f6c253] hover:text-[#ff5f56] text-xl font-black px-1 drop-shadow-[1px_1px_0_rgba(0,0,0,1)] transition-colors cursor-pointer"
                     >
                         ✕
                     </button>

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 export default function PostDetail({ post, onBack, clickSound, openSound, closeSound }) {
   const [selectedMedia, setSelectedMedia] = useState(null);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   // Detectar si es video o imagen
   const isVideo = (src) => {
@@ -47,7 +48,7 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
 
         <button
           onClick={() => { closeSound.play(); onBack(); }}
-          className="bg-[#f6c253] text-[#4a2e1b] text-xs font-black px-4 py-2 border-[3px] border-double border-[#4a2e1b] rounded-lg shadow active:translate-y-0.5 uppercase"
+          className="bg-[#f6c253] text-[#4a2e1b] text-xs font-black px-4 py-2 border-[3px] border-double border-[#4a2e1b] rounded-lg shadow active:translate-y-0.5 uppercase cursor-pointer"
         >
           ← Volver
         </button>
@@ -78,6 +79,7 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
                       clickSound.play();
                       openSound.play();
                       setSelectedMedia(media);
+                      setSelectedIndex(index);
                     }}
                   >
                     {isVideo(media) ? (
@@ -112,39 +114,79 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
       {/* MODAL FULLSCREEN */}
       {selectedMedia && (
         <div
-          className="fixed inset-0 bg-black z-[999] flex items-center justify-center cursor-zoom-out"
+          className="fixed inset-0 z-[999] bg-[#1e3a5f]/95 flex flex-col"
           onClick={() => {
             closeSound.play();
             setSelectedMedia(null);
           }}
         >
-          {isVideo(selectedMedia) ? (
-            <video
-              src={selectedMedia}
-              alt="Fullscreen Video"
-              className="w-full h-full object-contain"
-              autoPlay
-              controls
-            />
-          ) : (
-            <img
-              src={selectedMedia}
-              alt="Fullscreen"
-              className="w-full h-full object-contain"
-            />
-          )}
-
-          {/* BOTÓN CERRAR */}
-          <button 
-            className="absolute top-6 right-6 bg-[#4a2e1b] text-[#f6c253] w-12 h-12 rounded-full border-4 border-double border-[#f6c253] text-xl"
-            onClick={(e) => {
-              e.stopPropagation();
-              closeSound.play();
-              setSelectedMedia(null);
-            }}
+          <div
+            className="relative flex h-full w-full flex-col overflow-hidden border-[6px] border-double border-[#f6c253] bg-[#112240] shadow-[0_16px_0_0_rgba(0,0,0,0.5)]"
+            onClick={(e) => e.stopPropagation()}
           >
-            ✕
-          </button>
+            <div className="flex items-center justify-between gap-4 border-b-4 border-[#f6c253] bg-[#1e3a5f] px-4 py-3">
+              <div className="flex items-center gap-2">
+                {allImages.length > 1 && (
+                  <>
+                    <button
+                      className="flex h-12 w-12 items-center justify-center rounded-full border-4 border-double border-[#f6c253] bg-[#1e3a5f] text-2xl text-[#f6c253] transition-colors hover:bg-[#f6c253] hover:text-[#1e3a5f] cursor-pointer"
+                      onClick={() => {
+                        clickSound.play();
+                        const prevIndex = (selectedIndex - 1 + allImages.length) % allImages.length;
+                        setSelectedIndex(prevIndex);
+                        setSelectedMedia(allImages[prevIndex]);
+                      }}
+                    >
+                      ‹
+                    </button>
+                    <button
+                      className="flex h-12 w-12 items-center justify-center rounded-full border-4 border-double border-[#f6c253] bg-[#1e3a5f] text-2xl text-[#f6c253] transition-colors hover:bg-[#f6c253] hover:text-[#1e3a5f] cursor-pointer"
+                      onClick={() => {
+                        clickSound.play();
+                        const nextIndex = (selectedIndex + 1) % allImages.length;
+                        setSelectedIndex(nextIndex);
+                        setSelectedMedia(allImages[nextIndex]);
+                      }}
+                    >
+                      ›
+                    </button>
+                  </>
+                )}
+              </div>
+
+              <button
+                onClick={() => {
+                  closeSound.play();
+                  setSelectedMedia(null);
+                }}
+                className="rounded-full bg-[#f6c253] px-4 py-2 text-xs font-black uppercase tracking-widest text-[#4a2e1b] border-[3px] border-double border-[#4a2e1b] shadow cursor-pointer transition-colors hover:bg-[#e0b34c]"
+              >
+                ← Volver
+              </button>
+            </div>
+
+            <div className="flex-1 bg-[#1e3a5f] flex items-center justify-center overflow-hidden">
+              {isVideo(selectedMedia) ? (
+                <video
+                  src={selectedMedia}
+                  alt="Fullscreen Video"
+                  className="h-full w-full object-contain"
+                  autoPlay
+                  controls
+                />
+              ) : (
+                <img
+                  src={selectedMedia}
+                  alt="Fullscreen"
+                  className="h-full w-full object-contain"
+                />
+              )}
+            </div>
+
+            <div className="border-t-4 border-[#f6c253] bg-[#1e3a5f] px-4 py-3 text-right text-xs uppercase tracking-widest text-[#f6c253]">
+              {allImages.length > 1 ? `${selectedIndex + 1} / ${allImages.length}` : 'Imagen'}
+            </div>
+          </div>
         </div>
       )}
     </div>
