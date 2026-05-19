@@ -57,7 +57,7 @@ function MainPage() {
     setWindows((prev) => prev.filter((w) => w.id !== id));
   };
 
-  const pmdMainButton = "flex flex-col items-center justify-center gap-1 p-2 rounded-xl w-28 h-28 min-w-[7rem] min-h-[7rem] transition-transform transform hover:scale-105 hover:brightness-110 bg-[#1e3a5f] border-[4px] border-double border-[#f6c253] shadow-[0_4px_0_0_rgba(0,0,0,0.5)] active:translate-y-1 active:shadow-none cursor-pointer";
+  const pmdMainButton = "flex flex-col items-center justify-center gap-1 p-2 rounded-xl w-24 h-24 min-w-[6rem] min-h-[6rem] transition-transform transform hover:scale-105 hover:brightness-110 bg-[#1e3a5f] border-[4px] border-double border-[#f6c253] shadow-[0_4px_0_0_rgba(0,0,0,0.5)] active:translate-y-1 active:shadow-none cursor-pointer";
   const pmdGridItem = "flex flex-col items-center gap-2 p-4 rounded-xl bg-[#1e3a5f] border-[4px] border-double border-[#f6c253] hover:bg-[#2b4c7e] hover:scale-105 transition shadow-[2px_4px_0_0_rgba(0,0,0,0.4)] w-full text-center cursor-pointer";
 
   return (
@@ -78,13 +78,13 @@ function MainPage() {
       </div>
 
       {/* 📜 PANEL CENTRAL */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-sm md:w-[60%] md:max-w-3xl lg:max-w-4xl bg-[#8b5e3c] border-[6px] border-double border-[#4a2e1b] rounded-3xl shadow-[0_12px_0_0_rgba(0,0,0,0.5)] overflow-hidden md:top-auto md:left-1/2 md:translate-y-0 md:mt-20 md:mb-20">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-sm md:w-[55%] md:max-w-2xl lg:w-[48%] lg:max-w-xl xl:w-[42%] bg-[#8b5e3c] border-[6px] border-double border-[#4a2e1b] rounded-3xl shadow-[0_12px_0_0_rgba(0,0,0,0.5)] overflow-hidden md:top-auto md:left-1/2 md:translate-y-0 md:mt-20 md:mb-20">
         <div className="bg-[#4a2e1b] px-6 py-3 border-b-4 border-[#331f12] font-black text-center tracking-widest"></div>
         <div className="p-8 flex flex-col items-center gap-8 bg-[url('https://www.transparenttextures.com/patterns/wood-pattern.png')]">
           <h1 className="text-4xl md:text-5xl font-black text-[#fef6e4] uppercase tracking-wider text-center drop-shadow-[2px_3px_0_rgba(0,0,0,0.8)]">
             Erasmus 2026
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-10 w-full justify-items-center">
+          <div className="flex flex-col sm:flex-row md:flex-row items-center justify-center gap-4 md:gap-6 w-full">
             <button onClick={() => openWindow('posts')} className={pmdMainButton}>
               <span className="text-5xl drop-shadow-md">🎒</span>
               <span className="text-[11px] font-bold text-[#f6c253] uppercase drop-shadow-[1px_1px_0_rgba(0,0,0,1)] text-center leading-tight mt-1">Viaje</span>
@@ -93,7 +93,7 @@ function MainPage() {
               <span className="text-5xl drop-shadow-md">📜</span>
               <span className="text-[11px] font-bold text-[#f6c253] uppercase drop-shadow-[1px_1px_0_rgba(0,0,0,1)] text-center leading-tight mt-1">Sobre mi</span>
             </button>
-            <button onClick={() => openWindow('company')} className={`${pmdMainButton} sm:col-span-2 md:col-span-1`}>
+            <button onClick={() => openWindow('company')} className={pmdMainButton}>
               <span className="text-5xl drop-shadow-md">🏕️</span>
               <span className="text-[11px] font-bold text-[#f6c253] uppercase drop-shadow-[1px_1px_0_rgba(0,0,0,1)] text-center leading-tight mt-1">Sobre la empresa</span>
             </button>
@@ -135,28 +135,54 @@ function MainPage() {
             )}
 
             {win.type === 'about' && (
-              <div className="p-6 text-blue-50">
-                <h2 className="text-2xl font-black text-[#f6c253] mb-4 drop-shadow-[1px_1px_0_rgba(0,0,0,1)] text-center">{about.name}</h2>
-                <div className="bg-[#112240]/50 p-4 rounded-lg border border-[#3b5b43] italic leading-relaxed">
-                  {about.description}
+              <div className="p-4 text-blue-50">
+                <h2 className="text-2xl font-black text-[#f6c253] mb-4 drop-shadow-[1px_1px_0_rgba(0,0,0,0.8)] text-center">{about.name}</h2>
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-[1.7fr_1.3fr]">
+                  <div className="bg-[#1e3a5f] border-[4px] border-double border-[#f6c253] rounded-3xl shadow-[2px_4px_0_0_rgba(0,0,0,0.4)] p-5 flex flex-col gap-4">
+                    <p className="text-sm leading-relaxed">{about.description}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {about.interests?.map((interest, index) => (
+                        <span key={index} className="text-[11px] font-black uppercase tracking-[0.16em] text-[#f6c253] bg-[#112240] px-3 py-1 rounded-full border border-[#3b5b43] shadow-[0_2px_0_0_rgba(0,0,0,0.35)]">
+                          {interest}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="bg-[#1e3a5f] border-[4px] border-double border-[#f6c253] rounded-3xl shadow-[2px_4px_0_0_rgba(0,0,0,0.4)] overflow-hidden">
+                    {about.photo ? (
+                      <img src={about.photo} alt={`${about.name} photo`} className="w-full h-96 object-cover" />
+                    ) : (
+                      <div className="w-full h-96 bg-[#2b4c7e] flex items-center justify-center text-base">Foto</div>
+                    )}
+                  </div>
                 </div>
               </div>
             )}
 
             {win.type === 'company' && (
-              <div className="p-6 text-blue-50 space-y-4">
-                <h2 className="text-2xl font-black text-[#f6c253] drop-shadow-[1px_1px_0_rgba(0,0,0,1)] text-center">{company.name}</h2>
-                <div className="bg-[#112240]/50 p-4 rounded-lg border border-[#3b5b43]">
-                  <p className="text-green-300 font-bold uppercase text-xs mb-2 tracking-widest">{company.role}</p>
-                  <p className="mb-4 text-sm">{company.description}</p>
-                  <h3 className="font-bold text-[#f6c253] text-sm mb-2">Misiones actuales:</h3>
-                  <ul className="space-y-1">
-                    {company.tasks?.map((t, i) => (
-                      <li key={i} className="text-xs flex items-center gap-2">
-                        <span className="text-[#f6c253]">•</span> {t}
-                      </li>
-                    ))}
-                  </ul>
+              <div className="p-4 text-blue-50">
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-[1.25fr_0.95fr]">
+                  <div className="bg-[#1e3a5f] border-[4px] border-double border-[#f6c253] rounded-3xl shadow-[2px_4px_0_0_rgba(0,0,0,0.4)] p-5">
+                    <div className="flex items-center justify-center mb-4">
+                      {company.logo ? (
+                        <img src={company.logo} alt="Company logo" className="max-h-28 object-contain" />
+                      ) : (
+                        <h2 className="text-2xl font-black text-[#f6c253] drop-shadow-[1px_1px_0_rgba(0,0,0,0.8)] text-center">{company.name}</h2>
+                      )}
+                    </div>
+                    <p className="text-green-300 font-bold uppercase text-xs mb-2 tracking-widest">{company.role}</p>
+                    <p className="mb-4 text-sm leading-relaxed">{company.description}</p>
+                  </div>
+                  <div className="bg-[#1e3a5f] border-[4px] border-double border-[#f6c253] rounded-3xl shadow-[2px_4px_0_0_rgba(0,0,0,0.4)] p-5">
+                    <h3 className="font-black text-[#f6c253] text-sm mb-3 uppercase tracking-[0.2em]">Misiones actuales</h3>
+                    <ul className="space-y-3">
+                      {company.tasks?.map((t, i) => (
+                        <li key={i} className="text-sm text-blue-50 bg-[#112240]/80 rounded-2xl px-3 py-3 border border-[#3b5b43] shadow-[0_3px_0_0_rgba(0,0,0,0.25)]">
+                          <span className="text-[#f6c253] mr-2">•</span>{t}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             )}
