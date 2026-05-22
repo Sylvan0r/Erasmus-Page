@@ -66,8 +66,8 @@ const Window = ({ title, children, onClose, isOpen }) => {
             default={{
                 x: 200,
                 y: 80,
-                width: 500,
-                height: 400,
+                width: 700,
+                height: 500,
             }}
             minWidth={320}
             minHeight={220}

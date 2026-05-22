@@ -4,7 +4,6 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
   const [selectedMedia, setSelectedMedia] = useState(null);
   const [selectedIndex, setSelectedIndex] = useState(0);
 
-  // Detectar si es video o imagen
   const isVideo = (src) => {
     const videoExtensions = ['.mp4', '.webm', '.ogg', '.mov', '.avi', '.mkv'];
     return videoExtensions.some(ext => src.toLowerCase().includes(ext));
@@ -14,7 +13,6 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
     clickSound.play();
   }, [post, clickSound]);
 
-  // 🚫 BLOQUEAR SCROLL GLOBAL
   useEffect(() => {
     if (selectedMedia) {
       document.body.style.overflow = 'hidden';
@@ -32,6 +30,16 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
     : (Array.isArray(post.image) ? post.image : post.image ? [post.image] : []);
 
   const hasImages = allImages.length > 0;
+
+  // ✅ NUEVO: convierte URLs en links clicables
+  const linkify = (text = '') => {
+    return text
+      .replace(
+        /(https?:\/\/[^\s]+)/g,
+        '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-[#f6c253] underline hover:opacity-80">$1</a>'
+      )
+      .replace(/\n/g, '<br />');
+  };
 
   return (
     <div className="flex flex-col h-full bg-[#1e3a5f] relative overflow-hidden">
@@ -57,17 +65,21 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
       {/* CONTENIDO */}
       <div className={`flex-1 px-4 md:px-8 pb-8 pt-4 space-y-6 ${selectedMedia ? 'overflow-hidden' : 'overflow-y-auto'}`}>
 
-        {/* LAYOUT DINÁMICO */}
         <div className={`flex flex-col ${hasImages ? 'lg:flex-row gap-6' : ''}`}>
           
           {/* TEXTO */}
           <div className={`${hasImages ? 'flex-1 lg:max-w-[55%]' : 'w-full'}`}>
-            <p className="text-blue-50 whitespace-pre-line leading-relaxed bg-[#112240]/30 p-4 rounded-xl h-full">
-              {post.content || post.excerpt}
-            </p>
+
+            {/* 🔥 AQUÍ ESTÁ EL CAMBIO IMPORTANTE */}
+            <div
+              className="text-blue-50 leading-relaxed bg-[#112240]/30 p-4 rounded-xl h-full"
+              dangerouslySetInnerHTML={{
+                __html: linkify(post.content || post.excerpt)
+              }}
+            />
           </div>
 
-          {/* MEDIA (IMÁGENES Y VIDEOS) */}
+          {/* MEDIA */}
           {hasImages && (
             <div className="flex-1 lg:max-w-[45%]">
               <div className="flex flex-col gap-4">
@@ -88,7 +100,6 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
                           src={media} 
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                         />
-                        {/* BOTÓN PLAY */}
                         <div className="absolute inset-0 flex items-center justify-center group-hover:bg-black/10 transition-colors">
                           <button className="w-16 h-16 bg-[#f6c253] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform group-hover:scale-110">
                             <span className="text-3xl text-[#4a2e1b] ml-1">▶</span>
@@ -111,7 +122,7 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
         </div>
       </div>
 
-      {/* MODAL FULLSCREEN */}
+      {/* MODAL FULLSCREEN (SIN CAMBIOS) */}
       {selectedMedia && (
         <div
           className="fixed inset-0 z-[999] bg-[#1e3a5f]/95 flex flex-col"
@@ -169,7 +180,6 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
               {isVideo(selectedMedia) ? (
                 <video
                   src={selectedMedia}
-                  alt="Fullscreen Video"
                   className="h-full w-full object-contain"
                   autoPlay
                   controls
@@ -177,7 +187,6 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
               ) : (
                 <img
                   src={selectedMedia}
-                  alt="Fullscreen"
                   className="h-full w-full object-contain"
                 />
               )}

@@ -8,6 +8,10 @@
         "excerpt": "Llegué de noche y tomé un taxi al apartamento.",
         "content": "Llegué a Hamburgo de noche alrededor de las 11pm en horario de Hamburgo, intente usar los metros cercanos al aeropuerto, pero era mucho trabajo el entenderlo y esperar por el metro, así que decidí directamente pedir un taxi que me trajera a mi apartamento.\n\nEstá algo bastante sucio por la cantidad de personas que viven aquí, pero es lo suficientemente acogedor para que no me importe.",
         "image": [
+            "./img/2026-03-01/sea-of-clouds.mp4",
+            "./img/2026-03-01/thats-plain.mp4",
+            "./img/2026-03-01/mountains-and-plane.mp4",
+            "./img/2026-03-01/seems-nice.mp4",            
             "./img/2026-03-01/first-day-image-1.jpg",
             "./img/2026-03-01/first-day-image-2.jpg",
             "./img/2026-03-01/weird_statue.jpg"
@@ -562,12 +566,42 @@
     },
     {
         "id": 51,
-        "title": "¡Página online!",
+        "title": "La página finalmente online",
         "date": "19/05/2026",
         "city": "Hamburg",
-        "emoji": "👋",
-        "excerpt": "La página de Tanz der Kulturen ya está online.",
-        "content": "Hoy ha sido un día bastante importante, ya que por fin hemos dejado la página de Tanz der Kulturen online.\n\nDespués de tantos meses trabajando en ella, es increíble poder verla finalmente disponible para todo el mundo.\n\nObviamente todavía hay algunos detalles que queremos mejorar y cosas que añadir, pero el hecho de tenerla ya funcionando es un gran logro.\n\nJusto antes de que me fuese devuelta a casa también, pero bueno, lo que importa es que ya está hecha y se puede ver en cualquier momento en 'https://tanzderkulturen.de/'.",
+        "emoji": "🌍",
+        "excerpt": "Tanz der Kulturen ya está disponible públicamente.",
+        "content": "Hoy ha sido un día bastante importante.\n\nFinalmente hemos dejado la página de Tanz der Kulturen online.\n\nDespués de tantos meses trabajando en ella, rehaciendo cosas, arreglando problemas rarísimos y sobreviviendo al caos general del proyecto, verla finalmente publicada y accesible para todo el mundo se siente bastante surrealista.\n\nObviamente todavía quedan detalles por mejorar y algunas cosas que seguramente iremos añadiendo poco a poco, pero el hecho de que ya esté funcionando y disponible públicamente es un logro enorme.\n\nY honestamente, teniendo en cuenta lo accidentado que fue todo el desarrollo, casi sorprende que hayamos llegado a este punto sin volvernos completamente locos.\n\nLo más curioso es que justo hemos conseguido terminarla antes de que me vuelva a España, así que el timing ha sido perfecto.\n\nPor si alguien quiere verla, la página ya está disponible en:\n\nhttps://www.afrikanischer-tanz.de/\n\nY sinceramente, después de tantos meses trabajando prácticamente todos los días en esto… da bastante satisfacción verla finalmente terminada.",
+        "image": ""
+    },
+    {
+        "id": 52,
+        "title": "Preparando la página staging",
+        "date": "20/05/2026",
+        "city": "Hamburg",
+        "emoji": "🛠️",
+        "excerpt": "Terminamos la estructura de desarrollo de la web.",
+        "content": "Hoy ya podemos decir oficialmente que prácticamente hemos terminado todo.\n\nAyer dejamos publicada la página online, pero hoy nos encargamos principalmente de preparar la versión “Staging” de la web.\n\nBásicamente una copia de desarrollo donde podremos hacer cambios y pruebas sin tocar directamente la página principal que ve la gente.\n\nEso sí, parece que Prince no consigue encontrar ningún plugin gratuito que permita automatizar correctamente el proceso de pasar cambios desde staging a producción.\n\nAsí que probablemente tendrán que hacerlo a la antigua usanza.\n\nO sea, mover manualmente todos los cambios desde la página .dev hacia la página online cada vez que quieran actualizar algo.\n\nNo es precisamente el sistema más eficiente del mundo, pero sinceramente viendo todo lo demás que hemos tenido que improvisar durante este proyecto… tampoco me sorprende demasiado.",
+        "image": ""
+    },
+    {
+        "id": 53,
+        "title": "Últimos retoques",
+        "date": "21/05/2026",
+        "city": "Hamburg",
+        "emoji": "⚙️",
+        "excerpt": "Terminamos la staging page y dejamos todo preparado.",
+        "content": "Hoy estuvimos haciendo los últimos retoques generales a la página web.\n\nPrincipalmente pequeños cambios visuales, correcciones y comprobaciones finales para asegurarnos de que todo funcionase correctamente antes de dejar el proyecto completamente terminado.\n\nTambién terminamos de preparar la página .dev, que básicamente funciona como nuestra “Staging Page”.\n\nLa idea es que todos los cambios futuros se hagan ahí primero, y luego una vez comprobados, se pasen a la página real.\n\nSinceramente habría estado bastante bien tener todo este sistema preparado muchísimo antes, porque nos habría ahorrado bastantes dolores de cabeza durante el desarrollo.\n\nPero bueno, al final conseguimos dejarlo funcionando, que es lo importante.\n\nY honestamente, viendo cómo empezó este proyecto comparado con cómo termina… se nota muchísimo todo lo que aprendimos por el camino.",
+        "image": ""
+    },
+    {
+        "id": 54,
+        "title": "Último día en Hamburgo",
+        "date": "22/05/2026",
+        "city": "Hamburg",
+        "emoji": "🧳",
+        "excerpt": "Reflexiones finales sobre toda la experiencia.",
+        "content": "Último día.\n\nHonestamente no sé muy bien qué pensar sobre toda esta experiencia.\n\nComo probablemente se puede notar leyendo este diario, he tenido sentimientos bastante conflictivos durante estos meses.\n\nTambién tengo que admitir algo: yo no soy precisamente el tipo de persona al que le apasiona hacer turismo o visitar sitios nuevos.\n\nEn plan sí, está bonito y todo, pero nunca ha sido algo que realmente me llame muchísimo la atención.\n\nAsí que supongo que eso también influye bastante en cómo veo toda esta experiencia.\n\nSi tuviera que resumirlo de alguna manera, diría que ha sido algo… neutral.\n\nNo diría que fue una mala experiencia, porque definitivamente hubo cosas interesantes, aprendí bastante y conocí situaciones y personas que probablemente no habría visto nunca de otra forma.\n\nPero tampoco diría que fue algo que me cambiase la vida o algo que sentiría como “necesario” haber vivido.\n\nSimplemente fue… una experiencia.\n\nY sinceramente creo que eso está bien también.\n\nEso sí, esta entrada seguramente cambie mañana cuando añada las imágenes finales y las fotos de los aeropuertos, porque después de hacer un proyecto entero así, no voy a dejar esto sin imágenes del viaje de vuelta.",
         "image": ""
     }
 ]

@@ -37,3 +37,42 @@
   scrollbar-width: thin;
   scrollbar-color: #f6c253 #112240;
 }
+
+.bg-floating-blob {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(44px);
+  opacity: 0.16;
+  mix-blend-mode: screen;
+  animation: float-slow 20s ease-in-out infinite alternate;
+}
+
+.blob-1 {
+  width: 22rem;
+  height: 22rem;
+  top: 8%;
+  left: -8%;
+  background: rgba(246,194,83,0.16);
+}
+
+.blob-2 {
+  width: 18rem;
+  height: 18rem;
+  top: 52%;
+  right: -10%;
+  background: rgba(255,255,255,0.08);
+}
+
+.blob-3 {
+  width: 14rem;
+  height: 14rem;
+  bottom: 12%;
+  left: 38%;
+  background: rgba(106,185,175,0.12);
+}
+
+@keyframes float-slow {
+  to {
+    transform: translate3d(14px, -14px, 0) scale(1.02);
+  }
+}
