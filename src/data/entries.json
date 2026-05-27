@@ -601,7 +601,22 @@
         "city": "Hamburg",
         "emoji": "🧳",
         "excerpt": "Reflexiones finales sobre toda la experiencia.",
-        "content": "Último día.\n\nHonestamente no sé muy bien qué pensar sobre toda esta experiencia.\n\nComo probablemente se puede notar leyendo este diario, he tenido sentimientos bastante conflictivos durante estos meses.\n\nTambién tengo que admitir algo: yo no soy precisamente el tipo de persona al que le apasiona hacer turismo o visitar sitios nuevos.\n\nEn plan sí, está bonito y todo, pero nunca ha sido algo que realmente me llame muchísimo la atención.\n\nAsí que supongo que eso también influye bastante en cómo veo toda esta experiencia.\n\nSi tuviera que resumirlo de alguna manera, diría que ha sido algo… neutral.\n\nNo diría que fue una mala experiencia, porque definitivamente hubo cosas interesantes, aprendí bastante y conocí situaciones y personas que probablemente no habría visto nunca de otra forma.\n\nPero tampoco diría que fue algo que me cambiase la vida o algo que sentiría como “necesario” haber vivido.\n\nSimplemente fue… una experiencia.\n\nY sinceramente creo que eso está bien también.\n\nEso sí, esta entrada seguramente cambie mañana cuando añada las imágenes finales y las fotos de los aeropuertos, porque después de hacer un proyecto entero así, no voy a dejar esto sin imágenes del viaje de vuelta.",
-        "image": ""
+        "content": "Último día.\n\nHonestamente no sé muy bien qué pensar sobre toda esta experiencia.\n\nComo probablemente se puede notar leyendo este diario, he tenido sentimientos bastante conflictivos durante estos meses.\n\nTambién tengo que admitir algo: yo no soy precisamente el tipo de persona al que le apasiona hacer turismo o visitar sitios nuevos.\n\nEn plan sí, está bonito y todo, pero nunca ha sido algo que realmente me llame muchísimo la atención.\n\nAsí que supongo que eso también influye bastante en cómo veo toda esta experiencia.\n\nSi tuviera que resumirlo de alguna manera, diría que ha sido algo… neutral.\n\nNo diría que fue una mala experiencia, porque definitivamente hubo cosas interesantes, aprendí bastante y conocí situaciones y personas que probablemente no habría visto nunca de otra forma.\n\nPero tampoco diría que fue algo que me cambiase la vida o algo que sentiría como “necesario” haber vivido.\n\nSimplemente fue… una experiencia.\n\nY sinceramente creo que eso está bien también.\n\nBueno, igualmente, aqui teneis unas cuantas fotos de todo el proceso que tuve que hacer para poder volver a la Palma.",
+        "image": [
+            "./img/2026-05-22/hamburg_flight.jpg",
+            "./img/2026-05-22/hamburg_on_plane.jpg",
+            "./img/2026-05-22/spain_picking_up_things.jpg",
+            "./img/2026-05-22/spain_airport.jpg",
+            "./img/2026-05-22/spain_eating_place.jpg",
+            "./img/2026-05-22/spain_waiting.jpg",
+            "./img/2026-05-22/spain_going_to_terminal2.mp4",
+            "./img/2026-05-22/spain_big_cealing.mp4",
+            "./img/2026-05-22/spain_on_plane.jpg",
+            "./img/2026-05-22/spain_from_above.mp4",
+            "./img/2026-05-22/spain_from_above2.mp4",
+            "./img/2026-05-22/tenerife_arrived.jpg",
+            "./img/2026-05-22/tenerife_leaving.jpg",
+            "./img/2026-05-22/tenerife_on_plane.jpg"
+        ]
     }
 ]
