@@ -13,8 +13,7 @@
             "./img/2026-03-01/mountains-and-plane.mp4",
             "./img/2026-03-01/seems-nice.mp4",            
             "./img/2026-03-01/first-day-image-1.jpg",
-            "./img/2026-03-01/first-day-image-2.jpg",
-            "./img/2026-03-01/weird_statue.jpg"
+            "./img/2026-03-01/first-day-image-2.jpg"
         ]
     },
     {
@@ -29,13 +28,15 @@
     },
     {
         "id": 3,
-        "title": "Turismo y compras",
+        "title": "Turismo, revueltas y compras en Mediamarkt",
         "date": "03/03/2026",
         "city": "Hamburg",
         "emoji": "🛍️",
         "excerpt": "Turismo, fotos y búsqueda de un mouse.",
-        "content": "Hoy estuve haciendo cosas del trabajo final de ASIR, pero ya me tiene harto el que mi mouse este tan roto y que tenga que usar el botón secundario como principal, así que he decidido salir a hacer turismo y encontrar un mouse nuevo, he tomado muchas fotos en mi sesion de turismo, hasta vi una revuelta, no se porque era en primer lugar pero se me hizo chistoso, igualmente encontre un mediamarkt gigantesco y me quede a ver por dentro, ahi encontre un mouse decente a 15 euros.\n\nTambién de paso encontré que en el piso de arriba del todo estaba lleno de cosas de videojuegos y anime, así que al final tuve que echar un vistazo, y también compre una cosa para un compañero de clase, que ahora me debe unos 30 euros cuando vuelva…",
+        "content": "Hoy estuve haciendo cosas del trabajo final de ASIR, pero ya me tiene harto el que mi mouse este tan roto y que tenga que usar el botón secundario como principal, así que he decidido salir a hacer turismo y encontrar un mouse nuevo, he tomado muchas fotos en mi sesion de turismo, como por ejemplo, me encontré la estatua de 'Mahnmal für die Bombenopfer' siendo al parecer un monumento para las personas que fallecieron en los bombardeos de Hamburgo en el 30 de Julio de 1943, diciendo debajo de la estatua 'Diesen Toten mahnen: Nie wieder Faschismus, Nie wieder Krieg' que significa 'Estos muertos nos recuerdan: Nunca más fascismo, nunca más guerra'\n\n Otra cosa interesante tambien es que vi una revuelta afuera del mediamarkt teniendo banderas de irán, palestina e israel. \n\nYo por desgracia no entendia que estaban diciendo asi que decidi meterme en el mediamarkt para no correr riesgos, que tambien hubieran policias alrededor no me daba mucha confianza... \n\nAl entrar al Mediamarkt gigantesco y me quede a ver por dentro, ahi encontre un mouse decente a 15 euros.\n\nTambién de paso encontré que en el piso de arriba del todo estaba lleno de cosas de videojuegos y anime, así que al final tuve que echar un vistazo, y también compre una cosa para un compañero de clase, que ahora me debe unos 30 euros cuando vuelva…",
         "image": [
+            "./img/2026-03-03/Mahnmal_für_die_Bombenopfer.jpg",
+            "./img/2026-03-03/revolt.mp4",
             "./img/2026-03-03/fat_pikachu_&_eevee.jpg",
             "./img/2026-03-03/sonic_x.jpg",
             "./img/2026-03-03/one_piece_card.jpeg",
@@ -80,8 +81,18 @@
     },
     {
         "id": 7,
+        "title": "Hamburgo y el cuidado del medioambiente",
+        "date": "08/03/2026",
+        "city": "Hamburg",
+        "emoji": "♻️",
+        "excerpt": "Me sorprendió bastante cómo gestionan el reciclaje aquí.",
+        "content": "Algo que me llamó bastante la atención durante mi estancia en Hamburgo fue el tema del reciclaje y el cuidado del medioambiente. Aquí prácticamente todo el mundo separa la basura de manera bastante estricta y además hay muchísimas zonas preparadas para reciclar diferentes materiales.\n\nTambién me sorprendió la enorme cantidad de bicicletas, scooters eléctricos y transporte público que usa la gente diariamente. Honestamente, tiene sentido viendo lo plana que es la ciudad, porque moverse así es muchísimo más cómodo que en Canarias.\n\nOtra cosa curiosa es el sistema de devolución de botellas y latas. En muchos supermercados puedes devolverlas en unas máquinas especiales y te dan dinero o descuentos para futuras compras, algo que el centro comercial de Los Llanos adopto relativamente hace poco. Parece una tontería, pero hace que muchísima gente recicle constantemente.\n\nDefinitivamente se nota que aquí el tema medioambiental está bastante más integrado en la vida diaria de la gente.",
+        "image": ""
+    },
+    {
+        "id": 8,
         "title": "Días de trabajo intenso",
-        "date": "07/03/2026 - 11/03/2026",
+        "date": "09/03/2026 - 11/03/2026",
         "city": "Hamburg",
         "emoji": "📅",
         "excerpt": "Días centrados en trabajo y preparación.",
@@ -89,7 +100,7 @@
         "image": ""
     },
     {
-        "id": 8,
+        "id": 9,
         "title": "Problemas con la nevera",
         "date": "12/03/2026",
         "city": "Hamburg",
@@ -99,7 +110,7 @@
         "image": ""
     },
     {
-        "id": 9,
+        "id": 10,
         "title": "Descubrimiento clave",
         "date": "13/03/2026",
         "city": "Hamburg",
@@ -109,7 +120,7 @@
         "image": ""
     },
     {
-        "id": 10,
+        "id": 11,
         "title": "Decisiones raras",
         "date": "14/03/2026",
         "city": "Hamburg",
@@ -119,7 +130,7 @@
         "image": ""
     },
     {
-        "id": 11,
+        "id": 12,
         "title": "Domingo caro",
         "date": "15/03/2026",
         "city": "Hamburg",
@@ -129,7 +140,7 @@
         "image": ""
     },
     {
-        "id": 12,
+        "id": 13,
         "title": "Nueva habitación",
         "date": "16/03/2026",
         "city": "Hamburg",
@@ -139,7 +150,7 @@
         "image": "./img/2026-03-16/new-room.jpg"
     },
     {
-        "id": 13,
+        "id": 14,
         "title": "Rehacer el trabajo",
         "date": "17/03/2026",
         "city": "Hamburg",
@@ -149,7 +160,7 @@
         "image": ""
     },
     {
-        "id": 14,
+        "id": 15,
         "title": "Trabajando en el suelo",
         "date": "18/03/2026",
         "city": "Hamburg",
@@ -159,7 +170,7 @@
         "image": "./img/2026-03-18/chair.jpg"
     },
     {
-        "id": 15,
+        "id": 16,
         "title": "Día tranquilo",
         "date": "19/03/2026",
         "city": "Hamburg",
@@ -169,17 +180,17 @@
         "image": ""
     },
     {
-        "id": 16,
+        "id": 17,
         "title": "Supervivencia",
         "date": "20/03/2026",
         "city": "Hamburg",
         "emoji": "🗑️",
         "excerpt": "Necesito una papelera.",
-        "content": "Al final me he dado cuenta de una cosa de mi habitación siendo que, no tengo una basura en sí, en plan, no me hace mucha falta porque uso una de mis estrategias de supervivencia 101, siendo la de usar todo lo que no has tirado para utilizarlo, usando siempre mis bolsas de papas como basura, pero creo que tener una cubo de basura de verdad vendría bastante bien también.\n\nOtra cosa también es que ha aparecido una tía que dice que se quedará hasta el domingo, no se si es por la mañana cuando se va o por la noche, pero bueno, mientras no toque mi nevera personal u otra cosas no me importa.",
+        "content": "Al final me he dado cuenta de una cosa de mi habitación siendo que, no tengo una basura en sí, en plan, no me hace mucha falta porque uso una de mis estrategias de supervivencia 101, siendo la de usar todo lo que no has tirado para utilizarlo, usando siempre mis bolsas de papas como basura, pero creo que tener una cubo de basura de verdad vendría bastante bien también, ya que como comprendereis no quiero estar llendo afuera del edificio para tirar la basura en uno de los 3 containers siempre.\n\nOtra cosa también es que ha aparecido una tía que dice que se quedará hasta el domingo, no se si es por la mañana cuando se va o por la noche, pero bueno, mientras no toque mi nevera personal u otra cosas no me importa.",
         "image": "./img/2026-03-20/trashcan.jpeg"
     },
     {
-        "id": 17,
+        "id": 18,
         "title": "Día sin novedades",
         "date": "21/03/2026",
         "city": "Hamburg",
@@ -189,7 +200,7 @@
         "image": ""
     },
     {
-        "id": 18,
+        "id": 19,
         "title": "Espaguetis fallidos",
         "date": "22/03/2026",
         "city": "Hamburg",
@@ -199,7 +210,7 @@
         "image": ""
     },
     {
-        "id": 19,
+        "id": 20,
         "title": "Problemas en la cocina",
         "date": "23/03/2026",
         "city": "Hamburg",
@@ -209,7 +220,7 @@
         "image": ""
     },
     {
-        "id": 20,
+        "id": 21,
         "title": "La papelera pequeña",
         "date": "24/03/2026",
         "city": "Hamburg",
@@ -219,7 +230,7 @@
         "image": ""
     },
     {
-        "id": 21,
+        "id": 22,
         "title": "Semana infernal de trabajo",
         "date": "25/03/2026 - 30/03/2026",
         "city": "Hamburg",
@@ -229,7 +240,7 @@
         "image": ""
     },
     {
-        "id": 22,
+        "id": 23,
         "title": "Reunión presencial",
         "date": "31/03/2026",
         "city": "Hamburg",
@@ -244,7 +255,7 @@
         ]
     },
     {
-        "id": 23,
+        "id": 24,
         "title": "Pequeñas mejoras",
         "date": "01/04/2026",
         "city": "Hamburg",
@@ -254,7 +265,7 @@
         "image": ""
     },
     {
-        "id": 24,
+        "id": 25,
         "title": "Crisis en Wordpress",
         "date": "02/04/2026 - 03/04/2026",
         "city": "Hamburg",
@@ -264,7 +275,7 @@
         "image": ""
     },
     {
-        "id": 25,
+        "id": 26,
         "title": "Estrés familiar",
         "date": "04/04/2026",
         "city": "Hamburg",
@@ -274,7 +285,7 @@
         "image": ""
     },
     {
-        "id": 26,
+        "id": 27,
         "title": "Días tranquilos de trabajo",
         "date": "05/04/2026 - 14/04/2026",
         "city": "Hamburg",
@@ -284,7 +295,7 @@
         "image": ""
     },
     {
-        "id": 27,
+        "id": 28,
         "title": "Reunión y pequeño desastre",
         "date": "15/04/2026",
         "city": "Hamburg",
@@ -298,7 +309,7 @@
         ]
     },
     {
-        "id": 28,
+        "id": 29,
         "title": "Día normal pero decente",
         "date": "16/04/2026",
         "city": "Hamburg",
@@ -311,7 +322,7 @@
         ]
     },
     {
-        "id": 29,
+        "id": 30,
         "title": "Explorando un poco más",
         "date": "17/04/2026",
         "city": "Hamburg",
@@ -321,7 +332,7 @@
         "image": ""
     },
     {
-        "id": 30,
+        "id": 31,
         "title": "Vecinos raritos",
         "date": "18/04/2026",
         "city": "Hamburg",
@@ -331,7 +342,7 @@
         "image": ""
     },
     {
-        "id": 31,
+        "id": 32,
         "title": "Día normal y despedida",
         "date": "19/04/2026",
         "city": "Hamburg",
@@ -341,7 +352,7 @@
         "image": ""
     },
     {
-        "id": 32,
+        "id": 33,
         "title": "Comida y nostalgia",
         "date": "20/04/2026",
         "city": "Hamburg",
@@ -351,15 +362,15 @@
         "image": ""
     },
     {
-        "id": 33,
+        "id": 34,
         "title": "Días de trabajo",
         "date": "21/04/2026 -22/04/2026",
         "city": "Hamburg",
         "emoji": "📅",
-        "excerpt": "Días sin grandes novedades.",
-        "content": "Estos dos dias fueron mayoritariamente solo de trabajo, no hubo mucho importante aqui, y ahora que me doy cuenta, mis semanas al parecer son o “No ha pasado nada interesante que deba documentar” o “He descubierto una mafia al lado de donde vivo”, vale bueno esta ultima es un poco una exageración bastante grande, pero tu me entiendes no?\n\nAunque eso si, dije antes MAYORITARIAMENTE por algo, ya que pude ir a explorar por ahi porque me aburria bastante y pude encontrar un sitio que parecia molar.\n\n ¡Y menos mal que lo hice! Ya que pude ver un monton de cosas bastante guapas, como unos coches hechos de legos y tambien pude comprarme un inkling rosita de Splatoon bastante bonito, asi que oye no me puedo quejar tanto de estos dos dias.",
+        "excerpt": "Días de turismo y compras menores.",
+        "content": "Mientras estaba yo caminando por ahi encontre algunos sitios bastante guapos, por ejemplo el de la primera imagen, siendo este la 'Estación Central de Hamburgo (Hamburg Hauptbahnhof)', un edificio histórico emblemático de la ciudad, ya que es una de als estaciones de trenes mas concurrida de toda Alemania, siendo también la segunda de Europa en volumen de pasajeros. \n\nOtra cosa es que cerca de ahi me encontre una tienda que tenia cosas bastante chulas, como por ejemplo los coches de lego de las imagenes, que no te voy a mentir, lucen bastante cool, y por ultimo pero no menos importante, me encontre con algunos peluchitos del juego llamado 'Splatoon', asi que como persona fan de la saga me fue del establecimiento con un pequeño peluche de un inkling rosadito, yo diria que han sido unos buenos dias estos dos.",
         "image": [
-            "./img/2026-04-21-22/cool_looking_place.jpg",
+            "./img/2026-04-21-22/main_train_station.jpg",
             "./img/2026-04-21-22/lego_car_front.jpg",
             "./img/2026-04-21-22/lego_car_side.jpg",
             "./img/2026-04-21-22/lego_car_closeup.jpg",
@@ -368,7 +379,7 @@
         ]
     },
     {
-        "id": 34,
+        "id": 35,
         "title": "Reunión y reflexiones",
         "date": "23/04/2026",
         "city": "Hamburg",
@@ -381,7 +392,7 @@
         ]
     },
     {
-        "id": 35,
+        "id": 36,
         "title": "Cocina cerrada y sospechas",
         "date": "24/04/2026",
         "city": "Hamburg",
@@ -391,7 +402,7 @@
         "image": ""
     },
     {
-        "id": 36,
+        "id": 37,
         "title": "Nuevos compañeros sin aviso",
         "date": "25/04/2026",
         "city": "Hamburg",
@@ -401,17 +412,17 @@
         "image": ""
     },
     {
-        "id": 37,
-        "title": "Problemas con el dueño",
+        "id": 38,
+        "title": "Mejorando mis competencias",
         "date": "26/04/2026",
         "city": "Hamburg",
-        "emoji": "🌬️",
-        "excerpt": "Discusión por los olores en la habitación.",
-        "content": "De paso, para acabar esta semanita tan “buena”, voy a contaros un detallito bastante rariño del sitio este, principalmente su dueño, siendo que al parecer este tío PIENSA que hoy soy el CAUSANTE de los olores de la habitación MENOS TRANSPIRABLE Y DISEÑADA PARA SOLO QUEDARSE COMO MAXIMO 2 DIAS.\n\nEstilo, wow ¿Te diste cuenta tu solito? OBVIO QUE SOY LA CAUSA, SI ES QUE ESTE SITIO NO TRANSPIRA NADA DE AIRE, estilo, por la zona en donde esta la puerta es donde SIEMPRE viene el aire, casi NUNCA cambia de dirección, haciendo que aunque tenga las ventanas ABIERTAS DE PAR EN PAR, el olor no se ira completamente, ya QUE NO HAY CORRIENTE DE AIRE QUE SE LO LLEVE, YA QUE NO HAY CORRIENTE DE AIRE QUE ENTRE EN LA HABITACIÓN.\n\nLe he preguntado si es que tiene habitaciones que sean para una persona con nevera, para principalmente que me deje de molestar con eso, pero hasta la fecha no me ha contestado, los ha leído, pero no los ha contestado, asi que si el no quiere ayudar a arreglar el problema, lo mejor sera ignorar sus quejas hasta que rectifique, yo ya le informe, ahora no puede decir que es mi culpa cuando le indique esto.",
+        "emoji": "🧠",
+        "excerpt": "Estos meses me ayudaron bastante a mejorar profesionalmente.",
+        "content": "Algo positivo de toda esta experiencia es que definitivamente me ayudó bastante a mejorar tanto mis competencias digitales como mi capacidad para comunicarme en otros idiomas, principalmente el Inglés, ya que la principal razón por la que acepte Erasmus fue para ver que tan bueno era mi nivel de Inglés en situaciones reales, lo cual he comprobado que era como pensaba, pero también de paso he refrescado mi conocimiento de Alemán, tanto por el constante dialecto de las demas personas como mi esfuerzo de recordar, usando aplicaciones como duolingo.\n\nA nivel técnico aprendí muchísimo más sobre Wordpress, sistemas de bloques, staging pages, servidores, organización de proyectos web y trabajo en equipo dentro de una empresa real.\n\nTambién mejoré bastante mi capacidad para resolver problemas rápidamente, especialmente cuando aparecían errores raros o cambios inesperados en mitad del proyecto.\n\nPor otro lado, aunque gran parte de las reuniones fueron en inglés, también tuve que acostumbrarme a convivir constantemente rodeado de alemán, lo cual ayudó bastante a familiarizarme con expresiones básicas y a perder algo de miedo a comunicarme fuera de España.\n\nDefinitivamente siento que después de esta experiencia tengo mucha más soltura trabajando en entornos reales y adaptándome a situaciones nuevas.",
         "image": ""
     },
     {
-        "id": 38,
+        "id": 39,
         "title": "Sospechas en el cobertizo",
         "date": "27/04/2026",
         "city": "Hamburg",
@@ -421,7 +432,7 @@
         "image": ""
     },
     {
-        "id": 39,
+        "id": 40,
         "title": "Intento de estafa",
         "date": "28/04/2026",
         "city": "Hamburg",
@@ -431,7 +442,7 @@
         "image": ""
     },
     {
-        "id": 40,
+        "id": 41,
         "title": "Trabajo y día del trabajador",
         "date": "29/04/2026 - 01/05/2026",
         "city": "Hamburg",
@@ -441,7 +452,7 @@
         "image": ""
     },
     {
-        "id": 41,
+        "id": 42,
         "title": "Nuevos compañeros y cambios físicos",
         "date": "02/05/2026 - 03/05/2026",
         "city": "Hamburg",
@@ -451,7 +462,7 @@
         "image": ""
     },
     {
-        "id": 42,
+        "id": 43,
         "title": "Días sin mucho que contar",
         "date": "04/05/2026",
         "city": "Hamburg",
@@ -461,7 +472,7 @@
         "image": ""
     },
     {
-        "id": 43,
+        "id": 44,
         "title": "Reunión y paseo por la ciudad",
         "date": "05/05/2026",
         "city": "Hamburg",
@@ -485,7 +496,7 @@
         ]
     },
     {
-        "id": 44,
+        "id": 45,
         "title": "Días normales de trabajo",
         "date": "06/05/2026 - 07/05/2026",
         "city": "Hamburg",
@@ -495,7 +506,7 @@
         "image": ""
     },
     {
-        "id": 45,
+        "id": 46,
         "title": "Paseo, manga y compras",
         "date": "08/05/2026",
         "city": "Hamburg",
@@ -508,26 +519,37 @@
         ]
     },
     {
-        "id": 46,
-        "title": "Caos con los trenes",
+        "id": 47,
+        "title": "Deporte, música y arte en Hamburgo",
         "date": "09/05/2026",
         "city": "Hamburg",
-        "emoji": "🚆",
-        "excerpt": "Intentamos ir a jugar basket pero los trenes arruinaron el plan.",
-        "content": "Este finde estuvo un poco movidito.\n\nUn vecino me ofreció ir a jugar al basket, así que obviamente le dije que sí, pero al parecer TODOS los trenes decidieron funcionar fatal justo hoy.\n\nLiteralmente ninguno llegaba a tiempo o iban retrasados, así que al final no pudimos ir a jugar.\n\nSupongo que tendría algo que ver con la tremenda fiesta que había por la ciudad, porque por la noche se escuchaban y veían bastantes fuegos artificiales y voladores.\n\nNo sé exactamente qué celebración era, pero definitivamente parecía algo importante.",
+        "emoji": "🎨",
+        "excerpt": "La ciudad tiene muchísimo movimiento cultural.",
+        "content": "Durante mi estancia también pude notar que Hamburgo tiene bastante movimiento relacionado con el deporte, la música y el arte.\n\nPor ejemplo, es bastante común ver gente practicando deporte en parques o utilizando pistas públicas. Incluso un vecino me llegó a invitar a jugar al basket, aunque al final los trenes arruinaron completamente el plan.\n\nTambién me sorprendió muchísimo la cantidad de eventos, conciertos y fiestas que parecían organizar constantemente por la ciudad. Varias noches podía escucharse música, fuegos artificiales o celebraciones bastante grandes incluso desde donde vivía.\n\nA nivel artístico también hay muchísimas estatuas, edificios históricos, graffitis y zonas con diseños bastante modernos que hacen que pasear por la ciudad sea interesante visualmente.\n\nY honestamente, siendo alguien que disfruta bastante de los videojuegos, manga y anime, también me gustó muchísimo encontrar tantas tiendas relacionadas con ese tipo de cultura aquí en Hamburgo. \n\nQue de hecho, justo hoy se celebraba el 'Hafengeburtstag (el cumpleaños del puerto de Hamburgo)', que celebra el aniversario del puerto, y como se puede ver por las imagenes, es bastante importante.",
         "image": [
-            "./img/2026-05-09/tall_building.jpg",
             "./img/2026-05-09/tents.jpg",
             "./img/2026-05-09/a_lot_of_people.jpg",
-            "./img/2026-05-09/funny_statue.jpg",
-            "./img/2026-05-09/a_lot_of_people2.jpg",
-            "./img/2026-05-09/books.jpg"
+            "./img/2026-05-09/a_lot_of_people2.jpg"
         ]
     },
     {
-        "id": 47,
+        "id": 48,
+        "title": "Más trabajo y más turismo",
+        "date": "10/05/2026",
+        "city": "Hamburg",
+        "emoji": "🧍",
+        "excerpt": "Día enfocado en el trabajo pero con algo de turismo.",
+        "content": "Despúes de ayer, siendo el dia de la celebración del puerto, y sabiendo que era domingo, decidi ir a explorar mas sitios relacionados con el puerto, y la verdad es que me sorprendió bastante la cantidad de cosas interesantes que había por ahí, desde edificios históricos relacionados con el puerto, hasta estatuas, barcos y zonas de paseo bastante bonitas.\n\nAunque eso sí, lo que mas me intereso (y a lo que le hize fotos) fueron a las siguientes cosas:\n\n- Esta escultura, siendo llamada 'La mano de Dios (Guds hand) de Carl Milles'. \n\n- La Iglesia de San Nicolás de Hamburgo, que es una iglesia histórica bastante impresionante por fuera, por desgracia no me permitieron entrar.\n\n- Y por último, una librería bastante curiosa que encontré por ahí dentro de una cafetería, lo cual se me hizo bastante raro, ya que tenia un montón de libros antiguos y modernos que uno no pensaria en leer mientra se toma un café o algo similar.",
+        "image": [
+            "./img/2026-05-10/guds_hand.jpg",
+            "./img/2026-05-10/church_of_san_nicolas.jpg",
+            "./img/2026-05-10/books.jpg"
+        ]
+    },
+    {
+        "id": 49,
         "title": "Días centrados en el trabajo",
-        "date": "10/05/2026 - 14/05/2026",
+        "date": "11/05/2026 - 13/05/2026",
         "city": "Hamburg",
         "emoji": "💻",
         "excerpt": "Semana bastante tranquila enfocada en terminar la web.",
@@ -535,7 +557,17 @@
         "image": ""
     },
     {
-        "id": 48,
+        "id": 50,
+        "title": "Comidas de Hamburgo y África",
+        "date": "14/05/2026",
+        "city": "Hamburg",
+        "emoji": "🍲",
+        "excerpt": "La comida aquí fue bastante distinta a lo que estoy acostumbrado.",
+        "content": "Que ahora que me doy cuenta, no he hablado mucho sobre las comidas de Hamburgo no? \n\nBueno, durante estos meses también pude acostumbrarme un poco más a la comida y costumbres culinarias de Alemania.\n\nAlgo que noté bastante es que aquí muchas comidas son muchísimo más... pesadas, a comparación en casa. Hay muchísimo pan, embutidos, salchichas, etc.\n\nTambién me llamó bastante la atención que muchos supermercados tienen comida preparada bastante decente y relativamente barata, es más, por curiosidad probé una de estas que estaba a menos de 2 euros, teniendo las instrucciones tipicas de 'Presionar la comida por 1 minuto para separarla del envoltorio y poner en el microondas por 2 minutos' y no sabia tan mal, es decir, a comparación de la comida a mano que hacia yo no era nada, pero si me veia desesperado era una alternativa decente, cosa que terminé aprovechando más de una vez cuando estaba demasiado cansado para cocinar.\n\nY otra cosa, es que al yo trabajar en un sitio que fomenta el conocer la cultura africana era logico que mi jefa, Stephanie me ofreciese comida africana, siendo lo que me ofrecio algo similar a un potaje pero con más carne de lo que uno esperaría.\n\nIgualmente también aprendí bastante a cocinar por mi cuenta durante esta experiencia, principalmente porque no me quedaba otra. Al menos ahora mis espaguetis ya no salen crudos.",
+        "image": ""
+    },    
+    {
+        "id": 51,
         "title": "Recta final del proyecto",
         "date": "15/05/2026",
         "city": "Hamburg",
@@ -545,7 +577,7 @@
         "image": ""
     },
     {
-        "id": 49,
+        "id": 52,
         "title": "Quejas absurdas",
         "date": "16/05/2026",
         "city": "Hamburg",
@@ -555,7 +587,7 @@
         "image": ""
     },
     {
-        "id": 50,
+        "id": 53,
         "title": "Preparando la vuelta a casa",
         "date": "17/05/2026",
         "city": "Hamburg",
@@ -565,7 +597,7 @@
         "image": ""
     },
     {
-        "id": 51,
+        "id": 54,
         "title": "La página finalmente online",
         "date": "19/05/2026",
         "city": "Hamburg",
@@ -575,7 +607,7 @@
         "image": ""
     },
     {
-        "id": 52,
+        "id": 55,
         "title": "Preparando la página staging",
         "date": "20/05/2026",
         "city": "Hamburg",
@@ -585,7 +617,7 @@
         "image": ""
     },
     {
-        "id": 53,
+        "id": 56,
         "title": "Últimos retoques",
         "date": "21/05/2026",
         "city": "Hamburg",
@@ -595,7 +627,7 @@
         "image": ""
     },
     {
-        "id": 54,
+        "id": 57,
         "title": "Último día en Hamburgo",
         "date": "22/05/2026",
         "city": "Hamburg",
