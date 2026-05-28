@@ -97,8 +97,11 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
                     {isVideo(media) ? (
                       <>
                         <video 
-                          src={media} 
+                          src={`${media}#t=0.001`} 
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                          preload="metadata"
+                          playsInline
+                          muted
                         />
                         <div className="absolute inset-0 flex items-center justify-center group-hover:bg-black/10 transition-colors">
                           <button className="w-16 h-16 bg-[#f6c253] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform group-hover:scale-110">
@@ -122,7 +125,7 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
         </div>
       </div>
 
-      {/* MODAL FULLSCREEN (SIN CAMBIOS) */}
+      {/* MODAL FULLSCREEN (SIN CAMBIOS ESTRUCTURALES, SOLO FIX DE VIDEO) */}
       {selectedMedia && (
         <div
           className="fixed inset-0 z-[999] bg-[#1e3a5f]/95 flex flex-col"
@@ -183,6 +186,7 @@ export default function PostDetail({ post, onBack, clickSound, openSound, closeS
                   className="h-full w-full object-contain"
                   autoPlay
                   controls
+                  playsInline
                 />
               ) : (
                 <img

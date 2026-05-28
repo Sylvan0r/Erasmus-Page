@@ -43,8 +43,8 @@ function cleanDeployContents() {
 }
 
 function copyDist() {
-  // Copy dist contents but exclude large files (>10MB)
-  const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
+  // 🔥 CORREGIDO: Subimos el límite a 100MB (el límite máximo real de GitHub)
+  const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100MB
 
   function copyRecursive(src, dest) {
     const entries = fs.readdirSync(src, { withFileTypes: true });
@@ -60,13 +60,16 @@ function copyDist() {
         if (stats.size <= MAX_FILE_SIZE) {
           fs.copyFileSync(srcPath, destPath);
         } else {
-          console.log(`Skipping large file: ${srcPath} (${(stats.size / 1024 / 1024).toFixed(2)} MB)`);
+          console.log(`⚠️ Skipping ultra large file: ${srcPath} (${(stats.size / 1024 / 1024).toFixed(2)} MB)`);
         }
       }
     }
   }
 
   copyRecursive(distDir, deployDir);
+
+  // ✅ EXTRA: Crea el archivo .nojekyll automáticamente para asegurar la carga de multimedia
+  fs.writeFileSync(path.join(deployDir, '.nojekyll'), '');
 }
 
 function commitAndPush() {
